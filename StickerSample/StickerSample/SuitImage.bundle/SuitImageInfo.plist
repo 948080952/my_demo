@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SuitItems</key>
+	<array>
+		<dict>
+			<key>suit_image_component</key>
+			<array>
+				<dict>
+					<key>centerX</key>
+					<real>0.5</real>
+					<key>centerY</key>
+					<real>0.3</real>
+					<key>name</key>
+					<string>image_sticker_suit_01_1</string>
+				</dict>
+				<dict>
+					<key>centerX</key>
+					<real>0.5</real>
+					<key>centerY</key>
+					<real>0.35</real>
+					<key>name</key>
+					<string>image_sticker_suit_01_2</string>
+				</dict>
+				<dict>
+					<key>centerX</key>
+					<real>0.5</real>
+					<key>centerY</key>
+					<real>0.5</real>
+					<key>name</key>
+					<string>image_sticker_suit_01_3</string>
+				</dict>
+			</array>
+			<key>suit_image_name</key>
+			<string>image_sticker_suit_01</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>SuitImage</string>
+</dict>
+</plist>

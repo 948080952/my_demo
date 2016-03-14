@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>opuntia_image_name</key>
+	<array>
+		<string>image_sticker_opuntia_01</string>
+		<string>image_sticker_opuntia_02</string>
+		<string>image_sticker_opuntia_03</string>
+		<string>image_sticker_opuntia_04</string>
+		<string>image_sticker_opuntia_05</string>
+		<string>image_sticker_opuntia_06</string>
+		<string>image_sticker_opuntia_07</string>
+		<string>image_sticker_opuntia_08</string>
+		<string>image_sticker_opuntia_09</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+{
+    "pages" : [
+               {
+               "sections" : [
+                             {
+                             "stickers" : [
+                                           
+                                           {
+                                           "stickerName" : "image_sticker_suit_01",
+                                           "components" : [
+                                                           {
+                                                           "componentName" : "image_sticker_suit_01_1",
+                                                           "relativeCenterX" : 0.5,
+                                                           "relativeCenterY" : 0.32,
+                                                           "relativeWidth" : 0.5,
+                                                           "relativeHeight" : 0.23
+                                                           },
+                                                           {
+                                                           "componentName" : "image_sticker_suit_01_2",
+                                                           "relativeCenterX" : 0.5,
+                                                           "relativeCenterY" : 0.3,
+                                                           "relativeWidth" : 0.39,
+                                                           "relativeHeight" : 0.21
+                                                           },
+                                                           {
+                                                           "componentName" : "image_sticker_suit_01_3",
+                                                           "relativeCenterX" : 0.5,
+                                                           "relativeCenterY" : 0.5,
+                                                           "relativeWidth" : 0.3,
+                                                           "relativeHeight" : 0.15
+                                                           }
+                                                           ]
+                                           }
+                                           ],
+                             "headerName" : "",
+                             "footerName" : ""
+                             }
+               
+               ],
+               "pageIconName" : "image_emojitype_people",
+               "pageName" : "people",
+               "pageIndex" : 0,
+               "stickerType" : 1,
+               "numberOfRow" : 5,
+               "coordinateType" : 0
+               }
+               ],
+    "titleName" : "Add Suit",
+    "packageSelectedIconName" : "image_stickertype_suit",
+    "packageUnselectedIconName" : "image_stickertype_suit_gray",
+    "defaultPageIndex" : 0,
+    "packageName" : "suit",
+    "bundleName" : "SuitImage",
+    "recentPageIndex" : -1
+}
