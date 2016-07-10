@@ -15,6 +15,7 @@
 		F4C840E91C9D65F500410741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C840E71C9D65F500410741 /* LaunchScreen.storyboard */; };
 		F4C840F41C9D65F500410741 /* AVPlayerSample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C840F31C9D65F500410741 /* AVPlayerSample2Tests.m */; };
 		F4C840FF1C9D65F500410741 /* AVPlayerSample2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C840FE1C9D65F500410741 /* AVPlayerSample2UITests.m */; };
+		F4C8410D1C9D664500410741 /* jingongshixi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4C8410C1C9D664500410741 /* jingongshixi.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F4C840FA1C9D65F500410741 /* AVPlayerSample2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerSample2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C840FE1C9D65F500410741 /* AVPlayerSample2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerSample2UITests.m; sourceTree = "<group>"; };
 		F4C841001C9D65F500410741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C8410C1C9D664500410741 /* jingongshixi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jingongshixi.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		F4C840D81C9D65F500410741 /* AVPlayerSample2 */ = {
 			isa = PBXGroup;
 			children = (
+				F4C8410C1C9D664500410741 /* jingongshixi.mp4 */,
 				F4C840DC1C9D65F500410741 /* AppDelegate.h */,
 				F4C840DD1C9D65F500410741 /* AppDelegate.m */,
 				F4C840DF1C9D65F500410741 /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C8410D1C9D664500410741 /* jingongshixi.mp4 in Resources */,
 				F4C840E91C9D65F500410741 /* LaunchScreen.storyboard in Resources */,
 				F4C840E61C9D65F500410741 /* Assets.xcassets in Resources */,
 				F4C840E41C9D65F500410741 /* Main.storyboard in Resources */,

@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "VideoView.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    NSURL *_url;
+}
+
+@property (nonatomic, strong)NSURL *videoURL;
+@property (nonatomic, strong)VideoView *videoView;
 
 @end
 
@@ -16,12 +22,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view addSubview:self.videoView];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.videoView startVideoPlay];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
+
+#pragma mark - Getters
+
+- (VideoView *)videoView {
+    if (!_videoView) {
+        _videoView = [[VideoView alloc] initWithFrame:self.view.bounds andVideoUrl:self.videoURL];
+    }
+    return _videoView;
+}
+
+- (NSURL *)videoURL {
+    if (!_videoURL) {
+        _videoURL = [[NSBundle mainBundle] URLForResource:@"jingongshixi" withExtension:@"mp4"];
+    }
+    return _videoURL;
+}
+
+
 
 @end

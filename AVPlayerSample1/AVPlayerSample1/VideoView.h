@@ -10,4 +10,8 @@
 
 @interface VideoView : UIView
 
+- (instancetype)initWithFrame:(CGRect)frame;
+- (instancetype)initWithFrame:(CGRect)frame andVideoUrl:(NSURL *)videoUrl;
+- (void)startVideoPlay;
+
 @end
