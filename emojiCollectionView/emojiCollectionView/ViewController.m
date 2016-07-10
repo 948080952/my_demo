@@ -56,8 +56,8 @@
 #pragma mark - Action method
 
 - (void)popCollectionView:(UIButton *)sender {
-        self.definesPresentationContext = YES;
-    self.modalPresentationStyle = UIModalPresentationCurrentContext;
+    
+    self.emojiPageViewController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     self.emojiPageViewController.view.backgroundColor = [UIColor clearColor];
     [self presentViewController:self.emojiPageViewController animated:YES completion:^{
         self.modalPresentationStyle = UIModalPresentationFullScreen;
@@ -67,11 +67,6 @@
 
 
 #pragma mark - Getters
-
-
-
-
-
 
 - (UIButton *)button {
     if (!_button) {
