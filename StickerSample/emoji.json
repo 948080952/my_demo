@@ -1,0 +1,42 @@
+{
+    "pages" : [
+               {
+               "stickers" : [
+               
+                             {
+                             "stickerName" : "😂",
+                             "components" : [
+                                             {
+                                             "componentName" : "",
+                                             "relativeCenterX" : 0,
+                                             "relativeCenterY" : 0,
+                                             "relativeWidth" : 0,
+                                             "relativeHeight" : 0
+                                             }
+                                             ]
+                             },
+                             {
+                             "stickerName" : "😂",
+                             "components" : [
+                                             {
+                                             "componentName" : "",
+                                             "relativeCenterX" : 0,
+                                             "relativeCenterY" : 0,
+                                             "relativeWidth" : 0,
+                                             "relativeHeight" : 0
+                                             }
+                                             ]
+                             }
+               ],
+               "pageIconName" : "image_emojitype_people",
+               "pageName" : "people",
+               "pageIndex" : 0,
+               "stickerType" : 2,
+               "numberOfRow" : 5,
+               "coordinateType" : 0
+               }
+    ],
+    "packageSelectedIconName" : "image_stickertype_emoji",
+    "packageUnselectedIconName" : "image_stickertype_white_emoji",
+    "defaultPageIndex" : 0
+}

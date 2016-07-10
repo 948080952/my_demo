@@ -15,6 +15,34 @@
 		F49270701CE76262003AC958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F492706E1CE76262003AC958 /* LaunchScreen.storyboard */; };
 		F492707B1CE76262003AC958 /* TapjoyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F492707A1CE76262003AC958 /* TapjoyDemoTests.m */; };
 		F49270861CE76262003AC958 /* TapjoyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49270851CE76262003AC958 /* TapjoyDemoUITests.m */; };
+		F49270971CE767C6003AC958 /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F49270951CE767C6003AC958 /* TapjoyResources.bundle */; };
+		F49270981CE767C6003AC958 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270961CE767C6003AC958 /* Tapjoy.framework */; };
+		F492709A1CE76905003AC958 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270991CE76905003AC958 /* AdSupport.framework */; };
+		F492709C1CE7690E003AC958 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F492709B1CE7690E003AC958 /* CFNetwork.framework */; };
+		F492709E1CE7691C003AC958 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F492709D1CE7691B003AC958 /* CoreData.framework */; };
+		F49270A01CE76925003AC958 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F492709F1CE76925003AC958 /* CoreGraphics.framework */; };
+		F49270A21CE76930003AC958 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270A11CE76930003AC958 /* CoreLocation.framework */; };
+		F49270A41CE7693A003AC958 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270A31CE7693A003AC958 /* CoreMotion.framework */; };
+		F49270A61CE7694D003AC958 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270A51CE7694D003AC958 /* CoreTelephony.framework */; };
+		F49270A81CE7695A003AC958 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270A71CE7695A003AC958 /* EventKitUI.framework */; };
+		F49270AA1CE7696C003AC958 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270A91CE7696C003AC958 /* EventKit.framework */; };
+		F49270AC1CE769AB003AC958 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270AB1CE769AB003AC958 /* AVFoundation.framework */; };
+		F49270AE1CE769BF003AC958 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270AD1CE769BF003AC958 /* libc++.tbd */; };
+		F49270B01CE769CD003AC958 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270AF1CE769CD003AC958 /* libsqlite3.0.tbd */; };
+		F49270B21CE769DA003AC958 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270B11CE769DA003AC958 /* libxml2.tbd */; };
+		F49270B41CE769E5003AC958 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270B31CE769E5003AC958 /* libz.tbd */; };
+		F49270B61CE769F1003AC958 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270B51CE769F1003AC958 /* MapKit.framework */; };
+		F49270B81CE769FC003AC958 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270B71CE769FC003AC958 /* MediaPlayer.framework */; };
+		F49270BA1CE76A0D003AC958 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270B91CE76A0D003AC958 /* MessageUI.framework */; };
+		F49270BC1CE76A1B003AC958 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270BB1CE76A1A003AC958 /* MobileCoreServices.framework */; };
+		F49270BE1CE76A36003AC958 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270BD1CE76A36003AC958 /* PassKit.framework */; };
+		F49270C01CE76A41003AC958 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270BF1CE76A41003AC958 /* QuartzCore.framework */; };
+		F49270C21CE76A4B003AC958 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270C11CE76A4B003AC958 /* Security.framework */; };
+		F49270C41CE76A56003AC958 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270C31CE76A56003AC958 /* Social.framework */; };
+		F49270C61CE76A5F003AC958 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270C51CE76A5F003AC958 /* StoreKit.framework */; };
+		F49270C81CE76A6B003AC958 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270C71CE76A6B003AC958 /* SystemConfiguration.framework */; };
+		F49270CA1CE76A75003AC958 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270C91CE76A75003AC958 /* Twitter.framework */; };
+		F49270CC1CE76A7D003AC958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49270CB1CE76A7D003AC958 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +79,34 @@
 		F49270811CE76262003AC958 /* TapjoyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapjoyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49270851CE76262003AC958 /* TapjoyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapjoyDemoUITests.m; sourceTree = "<group>"; };
 		F49270871CE76262003AC958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49270951CE767C6003AC958 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
+		F49270961CE767C6003AC958 /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
+		F49270991CE76905003AC958 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F492709B1CE7690E003AC958 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F492709D1CE7691B003AC958 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F492709F1CE76925003AC958 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F49270A11CE76930003AC958 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F49270A31CE7693A003AC958 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F49270A51CE7694D003AC958 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F49270A71CE7695A003AC958 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		F49270A91CE7696C003AC958 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F49270AB1CE769AB003AC958 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F49270AD1CE769BF003AC958 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F49270AF1CE769CD003AC958 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F49270B11CE769DA003AC958 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		F49270B31CE769E5003AC958 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F49270B51CE769F1003AC958 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F49270B71CE769FC003AC958 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F49270B91CE76A0D003AC958 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F49270BB1CE76A1A003AC958 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F49270BD1CE76A36003AC958 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		F49270BF1CE76A41003AC958 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F49270C11CE76A4B003AC958 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F49270C31CE76A56003AC958 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F49270C51CE76A5F003AC958 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F49270C71CE76A6B003AC958 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F49270C91CE76A75003AC958 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		F49270CB1CE76A7D003AC958 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49270CC1CE76A7D003AC958 /* UIKit.framework in Frameworks */,
+				F49270CA1CE76A75003AC958 /* Twitter.framework in Frameworks */,
+				F49270C81CE76A6B003AC958 /* SystemConfiguration.framework in Frameworks */,
+				F49270C61CE76A5F003AC958 /* StoreKit.framework in Frameworks */,
+				F49270C41CE76A56003AC958 /* Social.framework in Frameworks */,
+				F49270C21CE76A4B003AC958 /* Security.framework in Frameworks */,
+				F49270C01CE76A41003AC958 /* QuartzCore.framework in Frameworks */,
+				F49270BE1CE76A36003AC958 /* PassKit.framework in Frameworks */,
+				F49270BC1CE76A1B003AC958 /* MobileCoreServices.framework in Frameworks */,
+				F49270BA1CE76A0D003AC958 /* MessageUI.framework in Frameworks */,
+				F49270B81CE769FC003AC958 /* MediaPlayer.framework in Frameworks */,
+				F49270B61CE769F1003AC958 /* MapKit.framework in Frameworks */,
+				F49270B41CE769E5003AC958 /* libz.tbd in Frameworks */,
+				F49270B21CE769DA003AC958 /* libxml2.tbd in Frameworks */,
+				F49270B01CE769CD003AC958 /* libsqlite3.0.tbd in Frameworks */,
+				F49270AE1CE769BF003AC958 /* libc++.tbd in Frameworks */,
+				F49270AC1CE769AB003AC958 /* AVFoundation.framework in Frameworks */,
+				F49270AA1CE7696C003AC958 /* EventKit.framework in Frameworks */,
+				F49270A81CE7695A003AC958 /* EventKitUI.framework in Frameworks */,
+				F49270A61CE7694D003AC958 /* CoreTelephony.framework in Frameworks */,
+				F49270A41CE7693A003AC958 /* CoreMotion.framework in Frameworks */,
+				F49270A21CE76930003AC958 /* CoreLocation.framework in Frameworks */,
+				F49270A01CE76925003AC958 /* CoreGraphics.framework in Frameworks */,
+				F492709E1CE7691C003AC958 /* CoreData.framework in Frameworks */,
+				F492709C1CE7690E003AC958 /* CFNetwork.framework in Frameworks */,
+				F492709A1CE76905003AC958 /* AdSupport.framework in Frameworks */,
+				F49270981CE767C6003AC958 /* Tapjoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +164,8 @@
 		F49270541CE76262003AC958 = {
 			isa = PBXGroup;
 			children = (
+				F49270CD1CE76A87003AC958 /* Framework */,
+				F49270931CE767C6003AC958 /* Tapjoy.embeddedframework */,
 				F492705F1CE76262003AC958 /* TapjoyDemo */,
 				F49270791CE76262003AC958 /* TapjoyDemoTests */,
 				F49270841CE76262003AC958 /* TapjoyDemoUITests */,
@@ -138,6 +223,56 @@
 				F49270871CE76262003AC958 /* Info.plist */,
 			);
 			path = TapjoyDemoUITests;
+			sourceTree = "<group>";
+		};
+		F49270931CE767C6003AC958 /* Tapjoy.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				F49270941CE767C6003AC958 /* Resources */,
+				F49270961CE767C6003AC958 /* Tapjoy.framework */,
+			);
+			path = Tapjoy.embeddedframework;
+			sourceTree = "<group>";
+		};
+		F49270941CE767C6003AC958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F49270951CE767C6003AC958 /* TapjoyResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F49270CD1CE76A87003AC958 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F49270CB1CE76A7D003AC958 /* UIKit.framework */,
+				F49270C91CE76A75003AC958 /* Twitter.framework */,
+				F49270C71CE76A6B003AC958 /* SystemConfiguration.framework */,
+				F49270C51CE76A5F003AC958 /* StoreKit.framework */,
+				F49270C31CE76A56003AC958 /* Social.framework */,
+				F49270C11CE76A4B003AC958 /* Security.framework */,
+				F49270BF1CE76A41003AC958 /* QuartzCore.framework */,
+				F49270BD1CE76A36003AC958 /* PassKit.framework */,
+				F49270BB1CE76A1A003AC958 /* MobileCoreServices.framework */,
+				F49270B91CE76A0D003AC958 /* MessageUI.framework */,
+				F49270B71CE769FC003AC958 /* MediaPlayer.framework */,
+				F49270B51CE769F1003AC958 /* MapKit.framework */,
+				F49270B31CE769E5003AC958 /* libz.tbd */,
+				F49270B11CE769DA003AC958 /* libxml2.tbd */,
+				F49270AF1CE769CD003AC958 /* libsqlite3.0.tbd */,
+				F49270AD1CE769BF003AC958 /* libc++.tbd */,
+				F49270AB1CE769AB003AC958 /* AVFoundation.framework */,
+				F49270A91CE7696C003AC958 /* EventKit.framework */,
+				F49270A71CE7695A003AC958 /* EventKitUI.framework */,
+				F49270A51CE7694D003AC958 /* CoreTelephony.framework */,
+				F49270A31CE7693A003AC958 /* CoreMotion.framework */,
+				F49270A11CE76930003AC958 /* CoreLocation.framework */,
+				F492709F1CE76925003AC958 /* CoreGraphics.framework */,
+				F492709D1CE7691B003AC958 /* CoreData.framework */,
+				F492709B1CE7690E003AC958 /* CFNetwork.framework */,
+				F49270991CE76905003AC958 /* AdSupport.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49270971CE767C6003AC958 /* TapjoyResources.bundle in Resources */,
 				F49270701CE76262003AC958 /* LaunchScreen.storyboard in Resources */,
 				F492706D1CE76262003AC958 /* Assets.xcassets in Resources */,
 				F492706B1CE76262003AC958 /* Main.storyboard in Resources */,
@@ -415,7 +551,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tapjoy.embeddedframework",
+				);
 				INFOPLIST_FILE = TapjoyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.TapjoyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +567,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tapjoy.embeddedframework",
+				);
 				INFOPLIST_FILE = TapjoyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.TapjoyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

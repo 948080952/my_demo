@@ -11,3 +11,27 @@
 @implementation YuXinModel
 
 @end
+
+@implementation YuXinLoginInfo
+
+@end
+
+@implementation YuXinBoard
+
+@end
+
+@implementation YuXinUserInfo
+
+@end
+
+@implementation YuXinFriend
+
+@end
+
+@implementation YuXinTitle
+
+@end
+
+@implementation YuXinArticle
+
+@end

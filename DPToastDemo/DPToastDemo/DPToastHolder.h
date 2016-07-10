@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DPToastModel.h"
 
 @interface DPToastHolder : UIViewController
+
+- (instancetype)initWithDPToastModel:(DPToastModel *)model;
+- (void)addDPToastModel:(DPToastModel *)model;
 
 @end

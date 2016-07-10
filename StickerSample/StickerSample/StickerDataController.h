@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StickerPackageModel.h"
 
 @interface StickerDataController : NSObject
+
+@property (nonatomic, strong)NSMutableArray<StickerPackageModel *> *stickerPackages;
++ (instancetype)sharedInstance;
+
 
 @end

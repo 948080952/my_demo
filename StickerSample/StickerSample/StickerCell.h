@@ -10,4 +10,8 @@
 
 @interface StickerCell : UICollectionViewCell
 
+- (void)setTextForLabel:(NSString *)text;
+- (void)setImageForImageView:(UIImage *)image;
+@property (nonatomic, assign)BOOL purchased;
+
 @end

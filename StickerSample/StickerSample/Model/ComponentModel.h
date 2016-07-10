@@ -7,7 +7,16 @@
 //
 
 #import "JSONModel.h"
+#import <CoreGraphics/CoreGraphics.h>
+
+@protocol ComponentModel @end
 
 @interface ComponentModel : JSONModel
+
+@property (nonatomic, strong) NSString<Optional> *componentName;
+@property (nonatomic, assign) CGFloat relativeCenterX;
+@property (nonatomic, assign) CGFloat relativeCenterY;
+@property (nonatomic, assign) CGFloat relativeWidth;
+@property (nonatomic, assign) CGFloat relativeHeight;
 
 @end

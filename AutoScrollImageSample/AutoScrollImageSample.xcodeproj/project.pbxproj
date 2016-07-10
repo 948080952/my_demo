@@ -15,6 +15,8 @@
 		F4F4C8101C9AD3DA006EE1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F4C80E1C9AD3DA006EE1A2 /* LaunchScreen.storyboard */; };
 		F4F4C81B1C9AD3DA006EE1A2 /* AutoScrollImageSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C81A1C9AD3DA006EE1A2 /* AutoScrollImageSampleTests.m */; };
 		F4F4C8261C9AD3DB006EE1A2 /* AutoScrollImageSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8251C9AD3DB006EE1A2 /* AutoScrollImageSampleUITests.m */; };
+		F4F4C8381C9AD748006EE1A2 /* AutoScrollImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8371C9AD748006EE1A2 /* AutoScrollImageVC.m */; };
+		F4F4C83D1C9AEAA8006EE1A2 /* AutoScrollIamgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C83C1C9AEAA8006EE1A2 /* AutoScrollIamgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F4F4C8211C9AD3DB006EE1A2 /* AutoScrollImageSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoScrollImageSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4C8251C9AD3DB006EE1A2 /* AutoScrollImageSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoScrollImageSampleUITests.m; sourceTree = "<group>"; };
 		F4F4C8271C9AD3DB006EE1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F4C8361C9AD748006EE1A2 /* AutoScrollImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollImageVC.h; sourceTree = "<group>"; };
+		F4F4C8371C9AD748006EE1A2 /* AutoScrollImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollImageVC.m; sourceTree = "<group>"; };
+		F4F4C83B1C9AEAA8006EE1A2 /* AutoScrollIamgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollIamgeView.h; sourceTree = "<group>"; };
+		F4F4C83C1C9AEAA8006EE1A2 /* AutoScrollIamgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollIamgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				F4F4C80E1C9AD3DA006EE1A2 /* LaunchScreen.storyboard */,
 				F4F4C8111C9AD3DA006EE1A2 /* Info.plist */,
 				F4F4C8001C9AD3DA006EE1A2 /* Supporting Files */,
+				F4F4C8361C9AD748006EE1A2 /* AutoScrollImageVC.h */,
+				F4F4C8371C9AD748006EE1A2 /* AutoScrollImageVC.m */,
+				F4F4C83B1C9AEAA8006EE1A2 /* AutoScrollIamgeView.h */,
+				F4F4C83C1C9AEAA8006EE1A2 /* AutoScrollIamgeView.m */,
 			);
 			path = AutoScrollImageSample;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F4C8081C9AD3DA006EE1A2 /* ViewController.m in Sources */,
+				F4F4C83D1C9AEAA8006EE1A2 /* AutoScrollIamgeView.m in Sources */,
 				F4F4C8051C9AD3DA006EE1A2 /* AppDelegate.m in Sources */,
+				F4F4C8381C9AD748006EE1A2 /* AutoScrollImageVC.m in Sources */,
 				F4F4C8021C9AD3DA006EE1A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A27B82B0315D7FA684DD5BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B779B91B6F563D6A4896728 /* libPods.a */; };
+		F41713941C89A9BF00AC0479 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = F41713931C89A9BF00AC0479 /* emoji.json */; };
+		F41713A51C8C0DD200AC0479 /* OpuntiaImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F41713A41C8C0DD200AC0479 /* OpuntiaImage.bundle */; };
+		F41713A71C8C22C000AC0479 /* SuitImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F41713A61C8C22C000AC0479 /* SuitImage.bundle */; };
+		F48186871C93FB6100D4E681 /* RecentStickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F48186861C93FB6100D4E681 /* RecentStickerHelper.m */; };
+		F4ED19861C8D77E600122469 /* emoji1.json in Resources */ = {isa = PBXBuildFile; fileRef = F4ED19851C8D77E600122469 /* emoji1.json */; };
+		F4ED19881C8D795100122469 /* emoji_mini.json in Resources */ = {isa = PBXBuildFile; fileRef = F4ED19871C8D795100122469 /* emoji_mini.json */; };
+		F4ED198C1C8E53E100122469 /* SectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED198B1C8E53E100122469 /* SectionModel.m */; };
+		F4ED198F1C8E70AC00122469 /* StickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED198E1C8E70AC00122469 /* StickerCell.m */; };
 		F4EE52DE1C871059003A9D8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE52DD1C871059003A9D8E /* main.m */; };
 		F4EE52E11C871059003A9D8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE52E01C871059003A9D8E /* AppDelegate.m */; };
 		F4EE52E41C871059003A9D8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE52E31C871059003A9D8E /* ViewController.m */; };
@@ -15,6 +24,22 @@
 		F4EE52EC1C871059003A9D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE52EA1C871059003A9D8E /* LaunchScreen.storyboard */; };
 		F4EE52F71C871059003A9D8E /* StickerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE52F61C871059003A9D8E /* StickerSampleTests.m */; };
 		F4EE53021C871059003A9D8E /* StickerSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53011C871059003A9D8E /* StickerSampleUITests.m */; };
+		F4EE53111C8714DD003A9D8E /* StickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53101C8714DD003A9D8E /* StickerViewController.m */; };
+		F4EE53141C871516003A9D8E /* StickerPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53131C871516003A9D8E /* StickerPageViewController.m */; };
+		F4EE53171C87152F003A9D8E /* StickerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53161C87152F003A9D8E /* StickerCollectionViewController.m */; };
+		F4EE534D1C871817003A9D8E /* ComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE534C1C871817003A9D8E /* ComponentModel.m */; };
+		F4EE53501C871833003A9D8E /* StickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE534F1C871833003A9D8E /* StickerModel.m */; };
+		F4EE53531C87184F003A9D8E /* StickerPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53521C87184F003A9D8E /* StickerPageModel.m */; };
+		F4EE53561C871873003A9D8E /* StickerPackageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53551C871873003A9D8E /* StickerPackageModel.m */; };
+		F4EE53591C872033003A9D8E /* StickerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE53581C872033003A9D8E /* StickerDataController.m */; };
+		F4EEF6471C8C4FF500855F1C /* JsonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EEF6461C8C4FF500855F1C /* JsonBuilder.m */; };
+		F4EEF64C1C8C521D00855F1C /* Category-Emoji-Mini.json in Resources */ = {isa = PBXBuildFile; fileRef = F4EEF64A1C8C521D00855F1C /* Category-Emoji-Mini.json */; };
+		F4EEF64D1C8C521D00855F1C /* Category-Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = F4EEF64B1C8C521D00855F1C /* Category-Emoji.json */; };
+		F4F368ED1C87C9D000DF78B4 /* DPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F368EA1C87C9D000DF78B4 /* DPTabBar.m */; };
+		F4F368EE1C87C9D000DF78B4 /* DPTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F368EC1C87C9D000DF78B4 /* DPTabBarItem.m */; };
+		F4F368F31C88694100DF78B4 /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F368F21C88694100DF78B4 /* DZNSegmentedControl.m */; };
+		F4F3FE0B1C952F7C0027FE1D /* TrinkitImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4F3FE0A1C952F7C0027FE1D /* TrinkitImage.bundle */; };
+		F4F4E10E1C904D840079ABF2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4E10D1C904D840079ABF2 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		379444E6DB71AC44B7A4B618 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B779B91B6F563D6A4896728 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E9ACC4D9984CFED5661BF8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F41713931C89A9BF00AC0479 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emoji.json; path = ../emoji.json; sourceTree = "<group>"; };
+		F41713A41C8C0DD200AC0479 /* OpuntiaImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OpuntiaImage.bundle; sourceTree = "<group>"; };
+		F41713A61C8C22C000AC0479 /* SuitImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SuitImage.bundle; sourceTree = "<group>"; };
+		F48186851C93FB6100D4E681 /* RecentStickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentStickerHelper.h; sourceTree = "<group>"; };
+		F48186861C93FB6100D4E681 /* RecentStickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentStickerHelper.m; sourceTree = "<group>"; };
+		F4ED19851C8D77E600122469 /* emoji1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji1.json; sourceTree = "<group>"; };
+		F4ED19871C8D795100122469 /* emoji_mini.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji_mini.json; sourceTree = "<group>"; };
+		F4ED19891C8DADD300122469 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F4ED198A1C8E53E100122469 /* SectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionModel.h; sourceTree = "<group>"; };
+		F4ED198B1C8E53E100122469 /* SectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionModel.m; sourceTree = "<group>"; };
+		F4ED198D1C8E70AC00122469 /* StickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCell.h; sourceTree = "<group>"; };
+		F4ED198E1C8E70AC00122469 /* StickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerCell.m; sourceTree = "<group>"; };
 		F4EE52D91C871059003A9D8E /* StickerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EE52DD1C871059003A9D8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EE52DF1C871059003A9D8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +91,36 @@
 		F4EE52FD1C871059003A9D8E /* StickerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EE53011C871059003A9D8E /* StickerSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerSampleUITests.m; sourceTree = "<group>"; };
 		F4EE53031C871059003A9D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EE530F1C8714DD003A9D8E /* StickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerViewController.h; sourceTree = "<group>"; };
+		F4EE53101C8714DD003A9D8E /* StickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerViewController.m; sourceTree = "<group>"; };
+		F4EE53121C871516003A9D8E /* StickerPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPageViewController.h; sourceTree = "<group>"; };
+		F4EE53131C871516003A9D8E /* StickerPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPageViewController.m; sourceTree = "<group>"; };
+		F4EE53151C87152F003A9D8E /* StickerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerCollectionViewController.h; sourceTree = "<group>"; };
+		F4EE53161C87152F003A9D8E /* StickerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerCollectionViewController.m; sourceTree = "<group>"; };
+		F4EE534B1C871817003A9D8E /* ComponentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentModel.h; sourceTree = "<group>"; };
+		F4EE534C1C871817003A9D8E /* ComponentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentModel.m; sourceTree = "<group>"; };
+		F4EE534E1C871833003A9D8E /* StickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerModel.h; sourceTree = "<group>"; };
+		F4EE534F1C871833003A9D8E /* StickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerModel.m; sourceTree = "<group>"; };
+		F4EE53511C87184F003A9D8E /* StickerPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPageModel.h; sourceTree = "<group>"; };
+		F4EE53521C87184F003A9D8E /* StickerPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPageModel.m; sourceTree = "<group>"; };
+		F4EE53541C871873003A9D8E /* StickerPackageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPackageModel.h; sourceTree = "<group>"; };
+		F4EE53551C871873003A9D8E /* StickerPackageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPackageModel.m; sourceTree = "<group>"; };
+		F4EE53571C872033003A9D8E /* StickerDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerDataController.h; sourceTree = "<group>"; };
+		F4EE53581C872033003A9D8E /* StickerDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerDataController.m; sourceTree = "<group>"; };
+		F4EEF6451C8C4FF500855F1C /* JsonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBuilder.h; sourceTree = "<group>"; };
+		F4EEF6461C8C4FF500855F1C /* JsonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonBuilder.m; sourceTree = "<group>"; };
+		F4EEF64A1C8C521D00855F1C /* Category-Emoji-Mini.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji-Mini.json"; sourceTree = "<group>"; };
+		F4EEF64B1C8C521D00855F1C /* Category-Emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji.json"; sourceTree = "<group>"; };
+		F4F368E91C87C9D000DF78B4 /* DPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabBar.h; sourceTree = "<group>"; };
+		F4F368EA1C87C9D000DF78B4 /* DPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabBar.m; sourceTree = "<group>"; };
+		F4F368EB1C87C9D000DF78B4 /* DPTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabBarItem.h; sourceTree = "<group>"; };
+		F4F368EC1C87C9D000DF78B4 /* DPTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabBarItem.m; sourceTree = "<group>"; };
+		F4F368EF1C87CD2500DF78B4 /* RateForFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateForFit.h; sourceTree = "<group>"; };
+		F4F368F11C88694100DF78B4 /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		F4F368F21C88694100DF78B4 /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		F4F3FE0A1C952F7C0027FE1D /* TrinkitImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TrinkitImage.bundle; sourceTree = "<group>"; };
+		F4F4E10C1C904D840079ABF2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F4F4E10D1C904D840079ABF2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A27B82B0315D7FA684DD5BC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +149,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D304603AC97A6B28D9A8E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				379444E6DB71AC44B7A4B618 /* Pods.debug.xcconfig */,
+				78E9ACC4D9984CFED5661BF8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE71E8FE7B05133EFF10E54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B779B91B6F563D6A4896728 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4EE52D01C871059003A9D8E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +173,8 @@
 				F4EE52F51C871059003A9D8E /* StickerSampleTests */,
 				F4EE53001C871059003A9D8E /* StickerSampleUITests */,
 				F4EE52DA1C871059003A9D8E /* Products */,
+				02D304603AC97A6B28D9A8E8 /* Pods */,
+				BE71E8FE7B05133EFF10E54D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +191,41 @@
 		F4EE52DB1C871059003A9D8E /* StickerSample */ = {
 			isa = PBXGroup;
 			children = (
+				F4EEF64A1C8C521D00855F1C /* Category-Emoji-Mini.json */,
+				F4EEF64B1C8C521D00855F1C /* Category-Emoji.json */,
+				F4F3FE0A1C952F7C0027FE1D /* TrinkitImage.bundle */,
+				F41713A61C8C22C000AC0479 /* SuitImage.bundle */,
+				F41713A41C8C0DD200AC0479 /* OpuntiaImage.bundle */,
+				F4F368F01C88694100DF78B4 /* DZSegmentedControl */,
+				F4F368E81C87C9D000DF78B4 /* DPTabBar */,
+				F4EE53181C8715B9003A9D8E /* Model */,
 				F4EE52DF1C871059003A9D8E /* AppDelegate.h */,
 				F4EE52E01C871059003A9D8E /* AppDelegate.m */,
+				F41713931C89A9BF00AC0479 /* emoji.json */,
 				F4EE52E21C871059003A9D8E /* ViewController.h */,
 				F4EE52E31C871059003A9D8E /* ViewController.m */,
+				F4EE530F1C8714DD003A9D8E /* StickerViewController.h */,
+				F4EE53101C8714DD003A9D8E /* StickerViewController.m */,
+				F4EE53121C871516003A9D8E /* StickerPageViewController.h */,
+				F4EE53131C871516003A9D8E /* StickerPageViewController.m */,
+				F4EE53151C87152F003A9D8E /* StickerCollectionViewController.h */,
+				F4EE53161C87152F003A9D8E /* StickerCollectionViewController.m */,
+				F4EE53571C872033003A9D8E /* StickerDataController.h */,
+				F4EE53581C872033003A9D8E /* StickerDataController.m */,
+				F4ED198D1C8E70AC00122469 /* StickerCell.h */,
+				F4ED198E1C8E70AC00122469 /* StickerCell.m */,
+				F4F368EF1C87CD2500DF78B4 /* RateForFit.h */,
 				F4EE52E51C871059003A9D8E /* Main.storyboard */,
 				F4EE52E81C871059003A9D8E /* Assets.xcassets */,
 				F4EE52EA1C871059003A9D8E /* LaunchScreen.storyboard */,
 				F4EE52ED1C871059003A9D8E /* Info.plist */,
 				F4EE52DC1C871059003A9D8E /* Supporting Files */,
+				F4EEF6451C8C4FF500855F1C /* JsonBuilder.h */,
+				F4EEF6461C8C4FF500855F1C /* JsonBuilder.m */,
+				F4ED19851C8D77E600122469 /* emoji1.json */,
+				F4ED19871C8D795100122469 /* emoji_mini.json */,
+				F4F4E10C1C904D840079ABF2 /* SecondViewController.h */,
+				F4F4E10D1C904D840079ABF2 /* SecondViewController.m */,
 			);
 			path = StickerSample;
 			sourceTree = "<group>";
@@ -118,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				F4EE52DD1C871059003A9D8E /* main.m */,
+				F4ED19891C8DADD300122469 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +257,46 @@
 			path = StickerSampleUITests;
 			sourceTree = "<group>";
 		};
+		F4EE53181C8715B9003A9D8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE534B1C871817003A9D8E /* ComponentModel.h */,
+				F4EE534C1C871817003A9D8E /* ComponentModel.m */,
+				F4EE534E1C871833003A9D8E /* StickerModel.h */,
+				F4EE534F1C871833003A9D8E /* StickerModel.m */,
+				F4ED198A1C8E53E100122469 /* SectionModel.h */,
+				F4ED198B1C8E53E100122469 /* SectionModel.m */,
+				F4EE53511C87184F003A9D8E /* StickerPageModel.h */,
+				F4EE53521C87184F003A9D8E /* StickerPageModel.m */,
+				F4EE53541C871873003A9D8E /* StickerPackageModel.h */,
+				F4EE53551C871873003A9D8E /* StickerPackageModel.m */,
+				F48186851C93FB6100D4E681 /* RecentStickerHelper.h */,
+				F48186861C93FB6100D4E681 /* RecentStickerHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4F368E81C87C9D000DF78B4 /* DPTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F4F368E91C87C9D000DF78B4 /* DPTabBar.h */,
+				F4F368EA1C87C9D000DF78B4 /* DPTabBar.m */,
+				F4F368EB1C87C9D000DF78B4 /* DPTabBarItem.h */,
+				F4F368EC1C87C9D000DF78B4 /* DPTabBarItem.m */,
+			);
+			name = DPTabBar;
+			path = StickerSample/DPTabBar;
+			sourceTree = SOURCE_ROOT;
+		};
+		F4F368F01C88694100DF78B4 /* DZSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				F4F368F11C88694100DF78B4 /* DZNSegmentedControl.h */,
+				F4F368F21C88694100DF78B4 /* DZNSegmentedControl.m */,
+			);
+			path = DZSegmentedControl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4EE53061C871059003A9D8E /* Build configuration list for PBXNativeTarget "StickerSample" */;
 			buildPhases = (
+				B11DF45CE321A0B5D091E9F7 /* Check Pods Manifest.lock */,
 				F4EE52D51C871059003A9D8E /* Sources */,
 				F4EE52D61C871059003A9D8E /* Frameworks */,
 				F4EE52D71C871059003A9D8E /* Resources */,
+				6F9D1FF772A7117AD4288796 /* Embed Pods Frameworks */,
+				4D80B646705CECB716D97E7B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +403,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4ED19861C8D77E600122469 /* emoji1.json in Resources */,
+				F41713A51C8C0DD200AC0479 /* OpuntiaImage.bundle in Resources */,
+				F4EEF64C1C8C521D00855F1C /* Category-Emoji-Mini.json in Resources */,
 				F4EE52EC1C871059003A9D8E /* LaunchScreen.storyboard in Resources */,
+				F41713941C89A9BF00AC0479 /* emoji.json in Resources */,
+				F4EEF64D1C8C521D00855F1C /* Category-Emoji.json in Resources */,
 				F4EE52E91C871059003A9D8E /* Assets.xcassets in Resources */,
 				F4EE52E71C871059003A9D8E /* Main.storyboard in Resources */,
+				F41713A71C8C22C000AC0479 /* SuitImage.bundle in Resources */,
+				F4ED19881C8D795100122469 /* emoji_mini.json in Resources */,
+				F4F3FE0B1C952F7C0027FE1D /* TrinkitImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +433,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D80B646705CECB716D97E7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9D1FF772A7117AD4288796 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11DF45CE321A0B5D091E9F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4EE52D51C871059003A9D8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F4E10E1C904D840079ABF2 /* SecondViewController.m in Sources */,
+				F4F368F31C88694100DF78B4 /* DZNSegmentedControl.m in Sources */,
+				F4EE53591C872033003A9D8E /* StickerDataController.m in Sources */,
+				F4EE534D1C871817003A9D8E /* ComponentModel.m in Sources */,
 				F4EE52E41C871059003A9D8E /* ViewController.m in Sources */,
+				F4ED198F1C8E70AC00122469 /* StickerCell.m in Sources */,
 				F4EE52E11C871059003A9D8E /* AppDelegate.m in Sources */,
+				F4F368ED1C87C9D000DF78B4 /* DPTabBar.m in Sources */,
+				F4EE53141C871516003A9D8E /* StickerPageViewController.m in Sources */,
+				F4EE53111C8714DD003A9D8E /* StickerViewController.m in Sources */,
+				F4EEF6471C8C4FF500855F1C /* JsonBuilder.m in Sources */,
+				F4EE53171C87152F003A9D8E /* StickerCollectionViewController.m in Sources */,
+				F4EE53501C871833003A9D8E /* StickerModel.m in Sources */,
+				F4F368EE1C87C9D000DF78B4 /* DPTabBarItem.m in Sources */,
 				F4EE52DE1C871059003A9D8E /* main.m in Sources */,
+				F4EE53561C871873003A9D8E /* StickerPackageModel.m in Sources */,
+				F48186871C93FB6100D4E681 /* RecentStickerHelper.m in Sources */,
+				F4EE53531C87184F003A9D8E /* StickerPageModel.m in Sources */,
+				F4ED198C1C8E53E100122469 /* SectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,9 +643,14 @@
 		};
 		F4EE53071C871059003A9D8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379444E6DB71AC44B7A4B618 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/daipei/Documents/xcodeProject/StickerSample/StickerSample/PrefixHeader.pch;
 				INFOPLIST_FILE = StickerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.StickerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +659,14 @@
 		};
 		F4EE53081C871059003A9D8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E9ACC4D9984CFED5661BF8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = /Users/daipei/Documents/xcodeProject/StickerSample/StickerSample/PrefixHeader.pch;
 				INFOPLIST_FILE = StickerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.StickerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +740,7 @@
 				F4EE53081C871059003A9D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4EE53091C871059003A9D8E /* Build configuration list for PBXNativeTarget "StickerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +749,7 @@
 				F4EE530B1C871059003A9D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4EE530C1C871059003A9D8E /* Build configuration list for PBXNativeTarget "StickerSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +758,7 @@
 				F4EE530E1C871059003A9D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

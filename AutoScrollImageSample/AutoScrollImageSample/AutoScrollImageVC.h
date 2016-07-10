@@ -10,4 +10,11 @@
 
 @interface AutoScrollImageVC : ViewController
 
+
+@property (nonatomic, assign)CGFloat intervals;
+
+- (instancetype)initWithImageData:(NSArray *)imageArray;
+- (void)setIntervals:(CGFloat)intervals;
+- (void)startScroll;
+
 @end

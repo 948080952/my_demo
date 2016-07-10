@@ -10,4 +10,11 @@
 
 @interface AutoScrollIamgeView : UIView
 
+@property (nonatomic, assign)CGFloat intervals;
+
+
+- (instancetype)initWithFrame:(CGRect)frame andImageData:(NSArray *)imageArray;
+- (void)setIntervals:(CGFloat)intervals;
+- (void)startScroll;
+
 @end

@@ -27,5 +27,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame SelectedImages:(NSArray *)selectedImages andUnSelectedImages:(NSArray *)unSelectedImages;
 - (void)setselectedItem:(NSInteger)index;
+- (void)setLockState:(BOOL)isLocked forIndex:(NSInteger)index;
 
 @end

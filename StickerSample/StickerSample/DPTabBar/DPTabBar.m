@@ -9,7 +9,9 @@
 #import "DPTabBar.h"
 #import "DPTabBarItem.h"
 
-@implementation DPTabBar
+@implementation DPTabBar {
+    NSString *_bundleName;
+}
 
 #pragma mark - Init
 
@@ -26,6 +28,8 @@
     return self;
 }
 
+
+
 #pragma mark - ConfigViews
 
 - (void)ConfigViews {
@@ -34,8 +38,9 @@
     for (NSInteger i = 0; i < _itemNumbers; i++) {
         DPTabBarItem *item = [[DPTabBarItem alloc] init];
         item.frame = CGRectMake(itemWidth * i, 0, itemWidth, itemHeight);
-        UIImage *selectedImage = [UIImage imageNamed:self.selectedImages[i]];
-        UIImage *unSelectedImage = [UIImage imageNamed:self.unSelectedImages[i]];
+        UIImage *selectedImage, *unSelectedImage;
+        selectedImage = self.selectedImages[i];
+        unSelectedImage = self.unSelectedImages[i];
         item.selectImage = selectedImage;
         item.unSelectImage = unSelectedImage;
         item.backgroundColor = [UIColor clearColor];
@@ -53,6 +58,12 @@
     self.items[index].selected = YES;
 }
 
+- (void)setLockState:(BOOL)isLocked forIndex:(NSInteger)index {
+    DPTabBarItem *item = self.items[index];
+    item.showLockImage = isLocked;
+    [item setNeedsDisplay];
+}
+
 #pragma mark - Private Method
 
 - (void)itemWasSelected:(DPTabBarItem *)sender {
@@ -62,6 +73,7 @@
     self.items[_selectedItem].selected = YES;
     [self.delegate selectedDidChange:_selectedItem];
 }
+
 
 #pragma mark - Getter
 

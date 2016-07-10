@@ -7,7 +7,13 @@
 //
 
 #import <JSONModel/JSONModel.h>
+#import "StickerModel.h"
 
+@protocol SectionModel;
 @interface SectionModel : JSONModel
+
+@property (nonatomic, strong) NSArray<StickerModel, ConvertOnDemand> *stickers;
+@property (nonatomic, strong) NSString *headerName;
+@property (nonatomic, strong) NSString *footerName;
 
 @end

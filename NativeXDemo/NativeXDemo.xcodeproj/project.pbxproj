@@ -15,6 +15,11 @@
 		F49B9CDF1CE4958F00506709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49B9CDD1CE4958F00506709 /* LaunchScreen.storyboard */; };
 		F49B9CEA1CE4958F00506709 /* NativeXDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B9CE91CE4958F00506709 /* NativeXDemoTests.m */; };
 		F49B9CF51CE4958F00506709 /* NativeXDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B9CF41CE4958F00506709 /* NativeXDemoUITests.m */; };
+		F49B9D101CE4964200506709 /* libNativeXSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9D031CE4964200506709 /* libNativeXSDK.a */; };
+		F49B9D221CE497BB00506709 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9D211CE497BB00506709 /* libsqlite3.0.tbd */; };
+		F49B9D2F1CE70CD600506709 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9D2E1CE70CD600506709 /* MediaPlayer.framework */; };
+		F49B9D311CE70CFD00506709 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9D301CE70CFD00506709 /* SystemConfiguration.framework */; };
+		F49B9D351CE711EC00506709 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49B9D341CE711EC00506709 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,22 @@
 		F49B9CF01CE4958F00506709 /* NativeXDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeXDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49B9CF41CE4958F00506709 /* NativeXDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeXDemoUITests.m; sourceTree = "<group>"; };
 		F49B9CF61CE4958F00506709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49B9D031CE4964200506709 /* libNativeXSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNativeXSDK.a; sourceTree = "<group>"; };
+		F49B9D051CE4964200506709 /* NativeXAdEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdEventDelegate.h; sourceTree = "<group>"; };
+		F49B9D061CE4964200506709 /* NativeXAdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdInfo.h; sourceTree = "<group>"; };
+		F49B9D071CE4964200506709 /* NativeXAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXAdView.h; sourceTree = "<group>"; };
+		F49B9D081CE4964200506709 /* NativeXCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXCurrency.h; sourceTree = "<group>"; };
+		F49B9D091CE4964200506709 /* NativeXInAppPurchaseTrackRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRecord.h; sourceTree = "<group>"; };
+		F49B9D0A1CE4964200506709 /* NativeXInAppPurchaseTrackRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXInAppPurchaseTrackRequest.h; sourceTree = "<group>"; };
+		F49B9D0B1CE4964200506709 /* NativeXRedeemedCurrencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRedeemedCurrencyInfo.h; sourceTree = "<group>"; };
+		F49B9D0C1CE4964200506709 /* NativeXReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXReward.h; sourceTree = "<group>"; };
+		F49B9D0D1CE4964200506709 /* NativeXRewardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRewardDelegate.h; sourceTree = "<group>"; };
+		F49B9D0E1CE4964200506709 /* NativeXRewardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXRewardInfo.h; sourceTree = "<group>"; };
+		F49B9D0F1CE4964200506709 /* NativeXSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeXSDK.h; sourceTree = "<group>"; };
+		F49B9D211CE497BB00506709 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F49B9D2E1CE70CD600506709 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F49B9D301CE70CFD00506709 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F49B9D341CE711EC00506709 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49B9D351CE711EC00506709 /* StoreKit.framework in Frameworks */,
+				F49B9D311CE70CFD00506709 /* SystemConfiguration.framework in Frameworks */,
+				F49B9D2F1CE70CD600506709 /* MediaPlayer.framework in Frameworks */,
+				F49B9D221CE497BB00506709 /* libsqlite3.0.tbd in Frameworks */,
+				F49B9D101CE4964200506709 /* libNativeXSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +107,10 @@
 		F49B9CC31CE4958F00506709 = {
 			isa = PBXGroup;
 			children = (
+				F49B9D021CE4964200506709 /* NativeXIOSSDK */,
 				F49B9CCE1CE4958F00506709 /* NativeXDemo */,
 				F49B9CE81CE4958F00506709 /* NativeXDemoTests */,
+				F49B9D271CE6B9A500506709 /* FrameWork */,
 				F49B9CF31CE4958F00506709 /* NativeXDemoUITests */,
 				F49B9CCD1CE4958F00506709 /* Products */,
 			);
@@ -138,6 +166,45 @@
 				F49B9CF61CE4958F00506709 /* Info.plist */,
 			);
 			path = NativeXDemoUITests;
+			sourceTree = "<group>";
+		};
+		F49B9D021CE4964200506709 /* NativeXIOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F49B9D031CE4964200506709 /* libNativeXSDK.a */,
+				F49B9D041CE4964200506709 /* NativeXSDKHeaders */,
+			);
+			path = NativeXIOSSDK;
+			sourceTree = "<group>";
+		};
+		F49B9D041CE4964200506709 /* NativeXSDKHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				F49B9D051CE4964200506709 /* NativeXAdEventDelegate.h */,
+				F49B9D061CE4964200506709 /* NativeXAdInfo.h */,
+				F49B9D071CE4964200506709 /* NativeXAdView.h */,
+				F49B9D081CE4964200506709 /* NativeXCurrency.h */,
+				F49B9D091CE4964200506709 /* NativeXInAppPurchaseTrackRecord.h */,
+				F49B9D0A1CE4964200506709 /* NativeXInAppPurchaseTrackRequest.h */,
+				F49B9D0B1CE4964200506709 /* NativeXRedeemedCurrencyInfo.h */,
+				F49B9D0C1CE4964200506709 /* NativeXReward.h */,
+				F49B9D0D1CE4964200506709 /* NativeXRewardDelegate.h */,
+				F49B9D0E1CE4964200506709 /* NativeXRewardInfo.h */,
+				F49B9D0F1CE4964200506709 /* NativeXSDK.h */,
+			);
+			path = NativeXSDKHeaders;
+			sourceTree = "<group>";
+		};
+		F49B9D271CE6B9A500506709 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				F49B9D211CE497BB00506709 /* libsqlite3.0.tbd */,
+				F49B9D341CE711EC00506709 /* StoreKit.framework */,
+				F49B9D301CE70CFD00506709 /* SystemConfiguration.framework */,
+				F49B9D2E1CE70CD600506709 /* MediaPlayer.framework */,
+			);
+			name = FrameWork;
+			path = NativeXIOSSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,6 +484,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NativeXDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeXIOSSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.NativeXDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,6 +499,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NativeXDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NativeXIOSSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.NativeXDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +573,7 @@
 				F49B9CFB1CE4958F00506709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F49B9CFC1CE4958F00506709 /* Build configuration list for PBXNativeTarget "NativeXDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +582,7 @@
 				F49B9CFE1CE4958F00506709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F49B9CFF1CE4958F00506709 /* Build configuration list for PBXNativeTarget "NativeXDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +591,7 @@
 				F49B9D011CE4958F00506709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

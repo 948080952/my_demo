@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <libxml2/libxml/parser.h>
 
 @interface YuXinXmlParser2 : NSObject
 

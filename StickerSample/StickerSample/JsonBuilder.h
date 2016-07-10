@@ -10,4 +10,7 @@
 
 @interface JsonBuilder : NSObject
 
+- (void)getJsonContent;
+- (void)serializeJson;
+
 @end

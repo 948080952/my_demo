@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4F278AD1CA77BCB0001A5F1 /* DPDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F278AC1CA77BCB0001A5F1 /* DPDownloadManager.m */; };
 		F4F2ECFF1CA6626B00F928D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2ECFE1CA6626B00F928D5 /* main.m */; };
 		F4F2ED021CA6626B00F928D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2ED011CA6626B00F928D5 /* AppDelegate.m */; };
 		F4F2ED051CA6626B00F928D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2ED041CA6626B00F928D5 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4F278AB1CA77BCB0001A5F1 /* DPDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDownloadManager.h; sourceTree = "<group>"; };
+		F4F278AC1CA77BCB0001A5F1 /* DPDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDownloadManager.m; sourceTree = "<group>"; };
 		F4F2ECFA1CA6626B00F928D5 /* DownloadTaskSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadTaskSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F2ECFE1CA6626B00F928D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4F2ED001CA6626B00F928D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				F4F2ED0B1CA6626B00F928D5 /* LaunchScreen.storyboard */,
 				F4F2ED0E1CA6626B00F928D5 /* Info.plist */,
 				F4F2ECFD1CA6626B00F928D5 /* Supporting Files */,
+				F4F278AB1CA77BCB0001A5F1 /* DPDownloadManager.h */,
+				F4F278AC1CA77BCB0001A5F1 /* DPDownloadManager.m */,
 			);
 			path = DownloadTaskSample1;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F2ED051CA6626B00F928D5 /* ViewController.m in Sources */,
+				F4F278AD1CA77BCB0001A5F1 /* DPDownloadManager.m in Sources */,
 				F4F2ED021CA6626B00F928D5 /* AppDelegate.m in Sources */,
 				F4F2ECFF1CA6626B00F928D5 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DownloadTaskSample1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.DownloadTaskSample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DownloadTaskSample1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.DownloadTaskSample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +506,7 @@
 				F4F2ED291CA6626B00F928D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F2ED2A1CA6626B00F928D5 /* Build configuration list for PBXNativeTarget "DownloadTaskSample1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				F4F2ED2C1CA6626B00F928D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F2ED2D1CA6626B00F928D5 /* Build configuration list for PBXNativeTarget "DownloadTaskSample1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				F4F2ED2F1CA6626B00F928D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

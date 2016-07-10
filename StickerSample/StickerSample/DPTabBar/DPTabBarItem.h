@@ -11,5 +11,5 @@
 @interface DPTabBarItem : UIControl
 @property (nonatomic, strong)UIImage *selectImage;
 @property (nonatomic, strong)UIImage *unSelectImage;
-
+@property (nonatomic, assign)BOOL showLockImage;
 @end
