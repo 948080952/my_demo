@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4EF02041C9C2092000B7393 /* jingongshixi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4EF02031C9C2092000B7393 /* jingongshixi.mp4 */; };
 		F4F4C8B01C9BFE02006EE1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8AF1C9BFE02006EE1A2 /* main.m */; };
 		F4F4C8B31C9BFE02006EE1A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8B21C9BFE02006EE1A2 /* AppDelegate.m */; };
 		F4F4C8B61C9BFE02006EE1A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8B51C9BFE02006EE1A2 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		F4F4C8BE1C9BFE02006EE1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F4C8BC1C9BFE02006EE1A2 /* LaunchScreen.storyboard */; };
 		F4F4C8C91C9BFE02006EE1A2 /* AVPlayerSample1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8C81C9BFE02006EE1A2 /* AVPlayerSample1Tests.m */; };
 		F4F4C8D41C9BFE02006EE1A2 /* AVPlayerSample1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8D31C9BFE02006EE1A2 /* AVPlayerSample1UITests.m */; };
+		F4F4C8E31C9BFEA9006EE1A2 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4C8E21C9BFEA9006EE1A2 /* VideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4EF02031C9C2092000B7393 /* jingongshixi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jingongshixi.mp4; sourceTree = "<group>"; };
 		F4F4C8AB1C9BFE02006EE1A2 /* AVPlayerSample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerSample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4C8AF1C9BFE02006EE1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4F4C8B11C9BFE02006EE1A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		F4F4C8CF1C9BFE02006EE1A2 /* AVPlayerSample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerSample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4C8D31C9BFE02006EE1A2 /* AVPlayerSample1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerSample1UITests.m; sourceTree = "<group>"; };
 		F4F4C8D51C9BFE02006EE1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F4C8E11C9BFEA9006EE1A2 /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		F4F4C8E21C9BFEA9006EE1A2 /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4EF02001C9C1DDE000B7393 /* VideoFile */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF02031C9C2092000B7393 /* jingongshixi.mp4 */,
+			);
+			path = VideoFile;
+			sourceTree = "<group>";
+		};
 		F4F4C8A21C9BFE02006EE1A2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +114,13 @@
 		F4F4C8AD1C9BFE02006EE1A2 /* AVPlayerSample1 */ = {
 			isa = PBXGroup;
 			children = (
+				F4EF02001C9C1DDE000B7393 /* VideoFile */,
 				F4F4C8B11C9BFE02006EE1A2 /* AppDelegate.h */,
 				F4F4C8B21C9BFE02006EE1A2 /* AppDelegate.m */,
 				F4F4C8B41C9BFE02006EE1A2 /* ViewController.h */,
 				F4F4C8B51C9BFE02006EE1A2 /* ViewController.m */,
+				F4F4C8E11C9BFEA9006EE1A2 /* VideoView.h */,
+				F4F4C8E21C9BFEA9006EE1A2 /* VideoView.m */,
 				F4F4C8B71C9BFE02006EE1A2 /* Main.storyboard */,
 				F4F4C8BA1C9BFE02006EE1A2 /* Assets.xcassets */,
 				F4F4C8BC1C9BFE02006EE1A2 /* LaunchScreen.storyboard */,
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EF02041C9C2092000B7393 /* jingongshixi.mp4 in Resources */,
 				F4F4C8BE1C9BFE02006EE1A2 /* LaunchScreen.storyboard in Resources */,
 				F4F4C8BB1C9BFE02006EE1A2 /* Assets.xcassets in Resources */,
 				F4F4C8B91C9BFE02006EE1A2 /* Main.storyboard in Resources */,
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F4C8E31C9BFEA9006EE1A2 /* VideoView.m in Sources */,
 				F4F4C8B61C9BFE02006EE1A2 /* ViewController.m in Sources */,
 				F4F4C8B31C9BFE02006EE1A2 /* AppDelegate.m in Sources */,
 				F4F4C8B01C9BFE02006EE1A2 /* main.m in Sources */,
@@ -498,6 +516,7 @@
 				F4F4C8DA1C9BFE02006EE1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F4C8DB1C9BFE02006EE1A2 /* Build configuration list for PBXNativeTarget "AVPlayerSample1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				F4F4C8DD1C9BFE02006EE1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F4C8DE1C9BFE02006EE1A2 /* Build configuration list for PBXNativeTarget "AVPlayerSample1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				F4F4C8E01C9BFE02006EE1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
