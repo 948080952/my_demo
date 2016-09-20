@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F47123661D8A42780081D873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F47123651D8A42780081D873 /* main.m */; };
+		F47123691D8A42780081D873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F47123681D8A42780081D873 /* AppDelegate.m */; };
+		F471236C1D8A42780081D873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F471236B1D8A42780081D873 /* ViewController.m */; };
+		F471236F1D8A42780081D873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F471236D1D8A42780081D873 /* Main.storyboard */; };
+		F47123711D8A42780081D873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47123701D8A42780081D873 /* Assets.xcassets */; };
+		F47123741D8A42780081D873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47123721D8A42780081D873 /* LaunchScreen.storyboard */; };
+		F471237F1D8A42780081D873 /* GetIMPFromSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F471237E1D8A42780081D873 /* GetIMPFromSelectorTests.m */; };
+		F471238A1D8A42780081D873 /* GetIMPFromSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F47123891D8A42780081D873 /* GetIMPFromSelectorUITests.m */; };
+		F47123991D8A429E0081D873 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = F47123981D8A429E0081D873 /* Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F471237B1D8A42780081D873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47123591D8A42770081D873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47123601D8A42770081D873;
+			remoteInfo = GetIMPFromSelector;
+		};
+		F47123861D8A42780081D873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47123591D8A42770081D873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47123601D8A42770081D873;
+			remoteInfo = GetIMPFromSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F47123611D8A42770081D873 /* GetIMPFromSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIMPFromSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47123651D8A42780081D873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F47123671D8A42780081D873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F47123681D8A42780081D873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F471236A1D8A42780081D873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F471236B1D8A42780081D873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F471236E1D8A42780081D873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F47123701D8A42780081D873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F47123731D8A42780081D873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F47123751D8A42780081D873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F471237A1D8A42780081D873 /* GetIMPFromSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIMPFromSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F471237E1D8A42780081D873 /* GetIMPFromSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIMPFromSelectorTests.m; sourceTree = "<group>"; };
+		F47123801D8A42780081D873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47123851D8A42780081D873 /* GetIMPFromSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIMPFromSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47123891D8A42780081D873 /* GetIMPFromSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIMPFromSelectorUITests.m; sourceTree = "<group>"; };
+		F471238B1D8A42780081D873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47123971D8A429E0081D873 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		F47123981D8A429E0081D873 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F471235E1D8A42770081D873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123771D8A42780081D873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123821D8A42780081D873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F47123581D8A42770081D873 = {
+			isa = PBXGroup;
+			children = (
+				F47123631D8A42780081D873 /* GetIMPFromSelector */,
+				F471237D1D8A42780081D873 /* GetIMPFromSelectorTests */,
+				F47123881D8A42780081D873 /* GetIMPFromSelectorUITests */,
+				F47123621D8A42770081D873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F47123621D8A42770081D873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47123611D8A42770081D873 /* GetIMPFromSelector.app */,
+				F471237A1D8A42780081D873 /* GetIMPFromSelectorTests.xctest */,
+				F47123851D8A42780081D873 /* GetIMPFromSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47123631D8A42780081D873 /* GetIMPFromSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F47123671D8A42780081D873 /* AppDelegate.h */,
+				F47123681D8A42780081D873 /* AppDelegate.m */,
+				F471236A1D8A42780081D873 /* ViewController.h */,
+				F471236B1D8A42780081D873 /* ViewController.m */,
+				F47123971D8A429E0081D873 /* Test.h */,
+				F47123981D8A429E0081D873 /* Test.m */,
+				F471236D1D8A42780081D873 /* Main.storyboard */,
+				F47123701D8A42780081D873 /* Assets.xcassets */,
+				F47123721D8A42780081D873 /* LaunchScreen.storyboard */,
+				F47123751D8A42780081D873 /* Info.plist */,
+				F47123641D8A42780081D873 /* Supporting Files */,
+			);
+			path = GetIMPFromSelector;
+			sourceTree = "<group>";
+		};
+		F47123641D8A42780081D873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F47123651D8A42780081D873 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F471237D1D8A42780081D873 /* GetIMPFromSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F471237E1D8A42780081D873 /* GetIMPFromSelectorTests.m */,
+				F47123801D8A42780081D873 /* Info.plist */,
+			);
+			path = GetIMPFromSelectorTests;
+			sourceTree = "<group>";
+		};
+		F47123881D8A42780081D873 /* GetIMPFromSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F47123891D8A42780081D873 /* GetIMPFromSelectorUITests.m */,
+				F471238B1D8A42780081D873 /* Info.plist */,
+			);
+			path = GetIMPFromSelectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47123601D8A42770081D873 /* GetIMPFromSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F471238E1D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelector" */;
+			buildPhases = (
+				F471235D1D8A42770081D873 /* Sources */,
+				F471235E1D8A42770081D873 /* Frameworks */,
+				F471235F1D8A42770081D873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetIMPFromSelector;
+			productName = GetIMPFromSelector;
+			productReference = F47123611D8A42770081D873 /* GetIMPFromSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F47123791D8A42780081D873 /* GetIMPFromSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47123911D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelectorTests" */;
+			buildPhases = (
+				F47123761D8A42780081D873 /* Sources */,
+				F47123771D8A42780081D873 /* Frameworks */,
+				F47123781D8A42780081D873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F471237C1D8A42780081D873 /* PBXTargetDependency */,
+			);
+			name = GetIMPFromSelectorTests;
+			productName = GetIMPFromSelectorTests;
+			productReference = F471237A1D8A42780081D873 /* GetIMPFromSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F47123841D8A42780081D873 /* GetIMPFromSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47123941D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelectorUITests" */;
+			buildPhases = (
+				F47123811D8A42780081D873 /* Sources */,
+				F47123821D8A42780081D873 /* Frameworks */,
+				F47123831D8A42780081D873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47123871D8A42780081D873 /* PBXTargetDependency */,
+			);
+			name = GetIMPFromSelectorUITests;
+			productName = GetIMPFromSelectorUITests;
+			productReference = F47123851D8A42780081D873 /* GetIMPFromSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47123591D8A42770081D873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dai Pei";
+				TargetAttributes = {
+					F47123601D8A42770081D873 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F47123791D8A42780081D873 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F47123601D8A42770081D873;
+					};
+					F47123841D8A42780081D873 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F47123601D8A42770081D873;
+					};
+				};
+			};
+			buildConfigurationList = F471235C1D8A42770081D873 /* Build configuration list for PBXProject "GetIMPFromSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47123581D8A42770081D873;
+			productRefGroup = F47123621D8A42770081D873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47123601D8A42770081D873 /* GetIMPFromSelector */,
+				F47123791D8A42780081D873 /* GetIMPFromSelectorTests */,
+				F47123841D8A42780081D873 /* GetIMPFromSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F471235F1D8A42770081D873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47123741D8A42780081D873 /* LaunchScreen.storyboard in Resources */,
+				F47123711D8A42780081D873 /* Assets.xcassets in Resources */,
+				F471236F1D8A42780081D873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123781D8A42780081D873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123831D8A42780081D873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F471235D1D8A42770081D873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F471236C1D8A42780081D873 /* ViewController.m in Sources */,
+				F47123991D8A429E0081D873 /* Test.m in Sources */,
+				F47123691D8A42780081D873 /* AppDelegate.m in Sources */,
+				F47123661D8A42780081D873 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123761D8A42780081D873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F471237F1D8A42780081D873 /* GetIMPFromSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47123811D8A42780081D873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F471238A1D8A42780081D873 /* GetIMPFromSelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F471237C1D8A42780081D873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47123601D8A42770081D873 /* GetIMPFromSelector */;
+			targetProxy = F471237B1D8A42780081D873 /* PBXContainerItemProxy */;
+		};
+		F47123871D8A42780081D873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47123601D8A42770081D873 /* GetIMPFromSelector */;
+			targetProxy = F47123861D8A42780081D873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F471236D1D8A42780081D873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F471236E1D8A42780081D873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F47123721D8A42780081D873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47123731D8A42780081D873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F471238C1D8A42780081D873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F471238D1D8A42780081D873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F471238F1D8A42780081D873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetIMPFromSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F47123901D8A42780081D873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetIMPFromSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F47123921D8A42780081D873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetIMPFromSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIMPFromSelector.app/GetIMPFromSelector";
+			};
+			name = Debug;
+		};
+		F47123931D8A42780081D873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetIMPFromSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIMPFromSelector.app/GetIMPFromSelector";
+			};
+			name = Release;
+		};
+		F47123951D8A42780081D873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetIMPFromSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetIMPFromSelector;
+			};
+			name = Debug;
+		};
+		F47123961D8A42780081D873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetIMPFromSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pinssible.GetIMPFromSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetIMPFromSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F471235C1D8A42770081D873 /* Build configuration list for PBXProject "GetIMPFromSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F471238C1D8A42780081D873 /* Debug */,
+				F471238D1D8A42780081D873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F471238E1D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F471238F1D8A42780081D873 /* Debug */,
+				F47123901D8A42780081D873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F47123911D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47123921D8A42780081D873 /* Debug */,
+				F47123931D8A42780081D873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F47123941D8A42780081D873 /* Build configuration list for PBXNativeTarget "GetIMPFromSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47123951D8A42780081D873 /* Debug */,
+				F47123961D8A42780081D873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47123591D8A42770081D873 /* Project object */;
+}

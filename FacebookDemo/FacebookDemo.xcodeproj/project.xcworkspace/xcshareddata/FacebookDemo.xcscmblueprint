@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9C1F3C67E5674C95CAA2EFF07B758B787A8E598A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9C1F3C67E5674C95CAA2EFF07B758B787A8E598A" : 0,
+    "606196B09BC30C37DCBD29BC58E3D898C173B3DE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8E7FF8AE-4101-4CA2-876E-B8694E1E4119",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9C1F3C67E5674C95CAA2EFF07B758B787A8E598A" : "xcodeProject\/",
+    "606196B09BC30C37DCBD29BC58E3D898C173B3DE" : "Pinssible\/git\/giftclient.game\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FacebookDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FacebookDemo\/FacebookDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.assembla.com:giftclient.game.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "606196B09BC30C37DCBD29BC58E3D898C173B3DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:948080952\/my_demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C1F3C67E5674C95CAA2EFF07B758B787A8E598A"
+    }
+  ]
+}
