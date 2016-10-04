@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F404EF8B1DA36057004109E9 /* YuXinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F404EF861DA36057004109E9 /* YuXinModel.m */; };
+		F404EF8C1DA36057004109E9 /* YuXinSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F404EF881DA36057004109E9 /* YuXinSDK.m */; };
+		F404EF8D1DA36057004109E9 /* YuXinXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F404EF8A1DA36057004109E9 /* YuXinXmlParser.m */; };
 		F484B3611D1D4E080096C221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3601D1D4E080096C221 /* main.m */; };
 		F484B3641D1D4E080096C221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3631D1D4E080096C221 /* AppDelegate.m */; };
 		F484B3671D1D4E080096C221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3661D1D4E080096C221 /* ViewController.m */; };
@@ -15,14 +18,10 @@
 		F484B36F1D1D4E080096C221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484B36D1D1D4E080096C221 /* LaunchScreen.storyboard */; };
 		F484B37A1D1D4E090096C221 /* YuXinSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3791D1D4E090096C221 /* YuXinSDKTests.m */; };
 		F484B3851D1D4E090096C221 /* YuXinSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3841D1D4E090096C221 /* YuXinSDKUITests.m */; };
-		F484B3941D1D4E270096C221 /* YuXinSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F484B3931D1D4E270096C221 /* YuXinSDK.m */; };
 		F4AED6DC1D29797800A033B3 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = F4AED6DB1D29797800A033B3 /* test.xml */; };
 		F4AED6DE1D2A054D00A033B3 /* test2.xml in Resources */ = {isa = PBXBuildFile; fileRef = F4AED6DD1D2A054C00A033B3 /* test2.xml */; };
-		F4AED6E11D2A2D8F00A033B3 /* YuXinXmlParser2.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AED6E01D2A2D8F00A033B3 /* YuXinXmlParser2.m */; };
 		F4AED6E31D2A2ED100A033B3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AED6E21D2A2ED100A033B3 /* libxml2.tbd */; };
 		F4AED6E51D2A66FE00A033B3 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AED6E41D2A66FE00A033B3 /* libiconv.2.tbd */; };
-		F4B217711D24C7AC009416CE /* YuXinXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B217701D24C7AC009416CE /* YuXinXmlParser.m */; };
-		F4B2177A1D24D68C009416CE /* YuXinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B217791D24D68C009416CE /* YuXinModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F404EF851DA36057004109E9 /* YuXinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinModel.h; sourceTree = "<group>"; };
+		F404EF861DA36057004109E9 /* YuXinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinModel.m; sourceTree = "<group>"; };
+		F404EF871DA36057004109E9 /* YuXinSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinSDK.h; sourceTree = "<group>"; };
+		F404EF881DA36057004109E9 /* YuXinSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinSDK.m; sourceTree = "<group>"; };
+		F404EF891DA36057004109E9 /* YuXinXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinXmlParser.h; sourceTree = "<group>"; };
+		F404EF8A1DA36057004109E9 /* YuXinXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinXmlParser.m; sourceTree = "<group>"; };
 		F484B35C1D1D4E080096C221 /* YuXinSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuXinSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484B3601D1D4E080096C221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F484B3621D1D4E080096C221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,18 +64,10 @@
 		F484B3801D1D4E090096C221 /* YuXinSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuXinSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484B3841D1D4E090096C221 /* YuXinSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuXinSDKUITests.m; sourceTree = "<group>"; };
 		F484B3861D1D4E090096C221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F484B3921D1D4E270096C221 /* YuXinSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinSDK.h; sourceTree = "<group>"; };
-		F484B3931D1D4E270096C221 /* YuXinSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinSDK.m; sourceTree = "<group>"; };
 		F4AED6DB1D29797800A033B3 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 		F4AED6DD1D2A054C00A033B3 /* test2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test2.xml; sourceTree = "<group>"; };
-		F4AED6DF1D2A2D8F00A033B3 /* YuXinXmlParser2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinXmlParser2.h; sourceTree = "<group>"; };
-		F4AED6E01D2A2D8F00A033B3 /* YuXinXmlParser2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinXmlParser2.m; sourceTree = "<group>"; };
 		F4AED6E21D2A2ED100A033B3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		F4AED6E41D2A66FE00A033B3 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
-		F4B2176F1D24C7AC009416CE /* YuXinXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinXmlParser.h; sourceTree = "<group>"; };
-		F4B217701D24C7AC009416CE /* YuXinXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinXmlParser.m; sourceTree = "<group>"; };
-		F4B217781D24D68C009416CE /* YuXinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuXinModel.h; sourceTree = "<group>"; };
-		F4B217791D24D68C009416CE /* YuXinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuXinModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +122,12 @@
 		F484B35E1D1D4E080096C221 /* YuXinSDK */ = {
 			isa = PBXGroup;
 			children = (
+				F404EF851DA36057004109E9 /* YuXinModel.h */,
+				F404EF861DA36057004109E9 /* YuXinModel.m */,
+				F404EF871DA36057004109E9 /* YuXinSDK.h */,
+				F404EF881DA36057004109E9 /* YuXinSDK.m */,
+				F404EF891DA36057004109E9 /* YuXinXmlParser.h */,
+				F404EF8A1DA36057004109E9 /* YuXinXmlParser.m */,
 				F4AED6DD1D2A054C00A033B3 /* test2.xml */,
 				F4AED6DB1D29797800A033B3 /* test.xml */,
 				F484B3621D1D4E080096C221 /* AppDelegate.h */,
@@ -136,14 +139,6 @@
 				F484B36D1D1D4E080096C221 /* LaunchScreen.storyboard */,
 				F484B3701D1D4E080096C221 /* Info.plist */,
 				F484B35F1D1D4E080096C221 /* Supporting Files */,
-				F484B3921D1D4E270096C221 /* YuXinSDK.h */,
-				F484B3931D1D4E270096C221 /* YuXinSDK.m */,
-				F4B2176F1D24C7AC009416CE /* YuXinXmlParser.h */,
-				F4B217701D24C7AC009416CE /* YuXinXmlParser.m */,
-				F4B217781D24D68C009416CE /* YuXinModel.h */,
-				F4B217791D24D68C009416CE /* YuXinModel.m */,
-				F4AED6DF1D2A2D8F00A033B3 /* YuXinXmlParser2.h */,
-				F4AED6E01D2A2D8F00A033B3 /* YuXinXmlParser2.m */,
 			);
 			path = YuXinSDK;
 			sourceTree = "<group>";
@@ -306,13 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F484B3941D1D4E270096C221 /* YuXinSDK.m in Sources */,
-				F4AED6E11D2A2D8F00A033B3 /* YuXinXmlParser2.m in Sources */,
+				F404EF8C1DA36057004109E9 /* YuXinSDK.m in Sources */,
 				F484B3671D1D4E080096C221 /* ViewController.m in Sources */,
+				F404EF8D1DA36057004109E9 /* YuXinXmlParser.m in Sources */,
+				F404EF8B1DA36057004109E9 /* YuXinModel.m in Sources */,
 				F484B3641D1D4E080096C221 /* AppDelegate.m in Sources */,
-				F4B217711D24C7AC009416CE /* YuXinXmlParser.m in Sources */,
 				F484B3611D1D4E080096C221 /* main.m in Sources */,
-				F4B2177A1D24D68C009416CE /* YuXinModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

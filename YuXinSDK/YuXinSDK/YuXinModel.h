@@ -10,6 +10,7 @@
 
 @interface YuXinModel : NSObject
 
+
 @end
 
 @interface YuXinLoginInfo : YuXinModel
@@ -40,6 +41,7 @@
 @property (nonatomic, strong) NSString *gender;
 @property (nonatomic, strong) NSString *horoscope;
 @property (nonatomic, strong) NSString *lastLogin;
+@property (nonatomic, strong) NSString *readableLastLogin;
 @property (nonatomic, strong) NSString *mailNum;
 @property (nonatomic, strong) NSString *postNum;
 @property (nonatomic, strong) NSString *netAge;
@@ -64,11 +66,13 @@
 
 @property (nonatomic, strong) NSString *author;
 @property (nonatomic, strong) NSString *date;
+@property (nonatomic, strong) NSString *readableDate;
 @property (nonatomic, strong) NSString *fileName;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *serialNum;
 @property (nonatomic, strong) NSString *canReply;
 @property (nonatomic, strong) NSString *replyNum;
+@property (nonatomic, strong) NSString *displaySummary;
 @property (nonatomic, strong) NSString *summary;
 
 @end
@@ -80,6 +84,15 @@
 @property (nonatomic, strong) NSString *content;
 @property (nonatomic, strong) NSString *fileName;
 @property (nonatomic, strong) NSString *num;
+@property (nonatomic, strong) NSString *realContent;
+@property (nonatomic, strong) NSString *header;
+@property (nonatomic, strong) NSString *readableDate;
+@property (nonatomic, strong) NSString *userIDAndName;
+@property (nonatomic, strong) NSString *displayContent;
+@property (nonatomic, strong) NSAttributedString *colorfulContent;
+@property (nonatomic, strong) NSString *replyStr;
+@property (nonatomic, strong) NSString *replyUserIDAndName;
+@property (nonatomic, strong) NSString *replyUserID;
 
 @end
 
