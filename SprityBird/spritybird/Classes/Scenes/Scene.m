@@ -11,14 +11,18 @@
 #import "BirdNode.h"
 #import "Score.h"
 
-#define BACK_SCROLLING_SPEED .5
-#define FLOOR_SCROLLING_SPEED 3
+#define BACK_SCROLLING_SPEED        .5
+#define FLOOR_SCROLLING_SPEED       3
+
+#define BACK_NOTE_RATE              0.82
+#define FLOOR_NODE_RATE             0.18
 
 // Obstacles
-#define VERTICAL_GAP_SIZE 120
-#define FIRST_OBSTACLE_PADDING 100
-#define OBSTACLE_MIN_HEIGHT 60
-#define OBSTACLE_INTERVAL_SPACE 130
+#define VERTICAL_GAP_SIZE           120
+#define FIRST_OBSTACLE_PADDING      100
+#define OBSTACLE_MIN_HEIGHT         60
+#define OBSTACLE_INTERVAL_SPACE     130
+
 
 
 @implementation Scene{
@@ -68,7 +72,8 @@ static bool wasted = NO;
 - (void) createBackground
 {
     back = NULL;
-    back = [SKScrollingNode scrollingNodeWithImageNamed:@"back" inContainerWidth:WIDTH(self)];
+    back = [SKScrollingNode scrollingNodeWithImageNamed:@"back" inContainerSize:CGSizeMake(self.frame.size.width, self.frame.size.height * BACK_NOTE_RATE)];
+    back.position = CGPointMake(0, self.frame.size.height * FLOOR_NODE_RATE);
     [back setScrollingSpeed:BACK_SCROLLING_SPEED];
     [back setAnchorPoint:CGPointZero];
     [back setPhysicsBody:[SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame]];
@@ -91,7 +96,7 @@ static bool wasted = NO;
 
 - (void)createFloor
 {
-    floor = [SKScrollingNode scrollingNodeWithImageNamed:@"floor" inContainerWidth:WIDTH(self)];
+    floor = [SKScrollingNode scrollingNodeWithImageNamed:@"floor" inContainerSize:CGSizeMake(self.frame.size.width, self.frame.size.height * FLOOR_NODE_RATE)];
     [floor setScrollingSpeed:FLOOR_SCROLLING_SPEED];
     [floor setAnchorPoint:CGPointZero];
     [floor setName:@"floor"];
@@ -114,17 +119,22 @@ static bool wasted = NO;
     // Calculate how many obstacles we need, the less the better
     nbObstacles = ceil(WIDTH(self)/(OBSTACLE_INTERVAL_SPACE));
     
+    UIImage *tmp = [UIImage imageNamed:@"pipe_top"];
+    CGFloat scaleRate = HEIGHT(self) / tmp.size.height;
+    
     CGFloat lastBlockPos = 0;
     bottomPipes = @[].mutableCopy;
     topPipes = @[].mutableCopy;
     for(int i=0;i<nbObstacles;i++){
         
         SKSpriteNode * topPipe = [SKSpriteNode spriteNodeWithImageNamed:@"pipe_top"];
+        [topPipe setScale:scaleRate];
         [topPipe setAnchorPoint:CGPointZero];
         [self addChild:topPipe];
         [topPipes addObject:topPipe];
         
         SKSpriteNode * bottomPipe = [SKSpriteNode spriteNodeWithImageNamed:@"pipe_bottom"];
+        [bottomPipe setScale:scaleRate];
         [bottomPipe setAnchorPoint:CGPointZero];
         [self addChild:bottomPipe];
         [bottomPipes addObject:bottomPipe];
@@ -209,7 +219,7 @@ static bool wasted = NO;
     float variance = [Math randomFloatBetween:0 and:maxVariance];
     
     // Bottom pipe placement
-    float minBottomPosY = HEIGHT(floor) + OBSTACLE_MIN_HEIGHT - HEIGHT(self);
+    float minBottomPosY = back.position.y - HEIGHT(bottomPipe) + OBSTACLE_MIN_HEIGHT;
     float bottomPosY = minBottomPosY + variance;
     bottomPipe.position = CGPointMake(xPos,bottomPosY);
     bottomPipe.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:CGRectMake(0,0, WIDTH(bottomPipe) , HEIGHT(bottomPipe))];

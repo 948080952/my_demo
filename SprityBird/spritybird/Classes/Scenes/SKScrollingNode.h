@@ -10,7 +10,7 @@
 
 @property (nonatomic) CGFloat scrollingSpeed;
 
-+ (id) scrollingNodeWithImageNamed:(NSString *)name inContainerWidth:(float) width;
++ (id) scrollingNodeWithImageNamed:(NSString *)name inContainerSize:(CGSize)size;
 - (void) update:(NSTimeInterval)currentTime;
 
 @end

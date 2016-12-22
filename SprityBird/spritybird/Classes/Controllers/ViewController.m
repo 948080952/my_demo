@@ -11,13 +11,13 @@
 #import "Score.h"
 
 @interface ViewController ()
-@property (weak,nonatomic) IBOutlet SKView * gameView;
-@property (weak,nonatomic) IBOutlet UIView * getReadyView;
+@property (strong, nonatomic) SKView * gameView;
+@property (weak, nonatomic) IBOutlet UIView * getReadyView;
 
-@property (weak,nonatomic) IBOutlet UIView * gameOverView;
-@property (weak,nonatomic) IBOutlet UIImageView * medalImageView;
-@property (weak,nonatomic) IBOutlet UILabel * currentScore;
-@property (weak,nonatomic) IBOutlet UILabel * bestScoreLabel;
+@property (weak, nonatomic) IBOutlet UIView * gameOverView;
+@property (weak, nonatomic) IBOutlet UIImageView * medalImageView;
+@property (weak, nonatomic) IBOutlet UILabel * currentScore;
+@property (weak, nonatomic) IBOutlet UILabel * bestScoreLabel;
 
 @end
 
@@ -33,6 +33,8 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
     
 	// Configure the view.
+    
+    [self.view addSubview:self.gameView];
     //self.gameView.showsFPS = YES;
     //self.gameView.showsNodeCount = YES;
     
@@ -126,6 +128,13 @@
     [animation setToValue:[NSValue valueWithCGPoint:
                            CGPointMake([self.view  center].x + 4.0f, [self.view  center].y)]];
     [[self.view layer] addAnimation:animation forKey:@"position"];
+}
+
+- (SKView *)gameView {
+    if (!_gameView) {
+        _gameView = [[SKView alloc] initWithFrame:self.view.frame];
+    }
+    return _gameView;
 }
 
 @end

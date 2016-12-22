@@ -349,6 +349,7 @@
 				TargetAttributes = {
 					82C6A08E18A6F53400FEBE9B = {
 						DevelopmentTeam = 5A4J2973DH;
+						ProvisioningStyle = Automatic;
 					};
 					82C6A0AF18A6F53400FEBE9B = {
 						TestTargetID = 82C6A08E18A6F53400FEBE9B;
@@ -550,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5A4J2973DH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
@@ -566,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5A4J2973DH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spritybird/Supporting Files/spritybird-Prefix.pch";
