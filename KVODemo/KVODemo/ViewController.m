@@ -31,22 +31,24 @@
     self.label.frame = CGRectMake(100, 50, 50, 20);
     [self.view addSubview:self.label];
     
-    [self addObserver:self forKeyPath:@"count" options:NSKeyValueObservingOptionNew context:(__bridge void *)self];
-    
+    [self addObserver:self forKeyPath:@"count" options:NSKeyValueObservingOptionNew context:nil];
 }
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [self removeObserver:self forKeyPath:@"count"];
+}
+
 #pragma mark - KVO
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
     NSLog(@"%li", (long)self.count);
+    self.label.text = [NSString stringWithFormat:@"%li", (long)self.count];
+    
 }
 
 #pragma mark - Action Method
@@ -70,6 +72,7 @@
     if (!_label) {
         _label = [[UILabel alloc] init];
         _label.text = [NSString stringWithFormat:@"%li", (long)self.count];
+        _label.textAlignment = NSTextAlignmentCenter;
     }
     return _label;
 }
