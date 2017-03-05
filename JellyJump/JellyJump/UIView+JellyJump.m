@@ -73,7 +73,7 @@
     jellyJump.values = @[value0, value1, value2, value3, value4, value5, value6, value7];
     jellyJump.keyTimes = @[@(0), @(0.1), @(0.25), @(0.35), @(0.4), @(0.5), @(0.58), @(1)];
     
-    jellyJump.duration = 1.8;
+    jellyJump.duration = 1.5;
     jellyJump.fillMode = kCAFillModeBackwards;
     jellyJump.removedOnCompletion = NO;
     jellyJump.repeatCount = INFINITY;
