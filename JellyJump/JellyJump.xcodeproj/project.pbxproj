@@ -15,6 +15,7 @@
 		F4070FD81E6BAC1D00FCEF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4070FD61E6BAC1D00FCEF4E /* LaunchScreen.storyboard */; };
 		F4070FE31E6BAC1D00FCEF4E /* JellyJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FE21E6BAC1D00FCEF4E /* JellyJumpTests.m */; };
 		F4070FEE1E6BAC1D00FCEF4E /* JellyJumpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FED1E6BAC1D00FCEF4E /* JellyJumpUITests.m */; };
+		F4070FFD1E6BB7C100FCEF4E /* UIView+JellyJump.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FFC1E6BB7C100FCEF4E /* UIView+JellyJump.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F4070FE91E6BAC1D00FCEF4E /* JellyJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4070FED1E6BAC1D00FCEF4E /* JellyJumpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyJumpUITests.m; sourceTree = "<group>"; };
 		F4070FEF1E6BAC1D00FCEF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4070FFB1E6BB7C100FCEF4E /* UIView+JellyJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JellyJump.h"; sourceTree = "<group>"; };
+		F4070FFC1E6BB7C100FCEF4E /* UIView+JellyJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JellyJump.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F4070FCC1E6BAC1D00FCEF4E /* AppDelegate.m */,
 				F4070FCE1E6BAC1D00FCEF4E /* ViewController.h */,
 				F4070FCF1E6BAC1D00FCEF4E /* ViewController.m */,
+				F4070FFB1E6BB7C100FCEF4E /* UIView+JellyJump.h */,
+				F4070FFC1E6BB7C100FCEF4E /* UIView+JellyJump.m */,
 				F4070FD11E6BAC1D00FCEF4E /* Main.storyboard */,
 				F4070FD41E6BAC1D00FCEF4E /* Assets.xcassets */,
 				F4070FD61E6BAC1D00FCEF4E /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					F4070FC41E6BAC1D00FCEF4E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5A4J2973DH;
 						ProvisioningStyle = Automatic;
 					};
 					F4070FDD1E6BAC1D00FCEF4E = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4070FD01E6BAC1D00FCEF4E /* ViewController.m in Sources */,
+				F4070FFD1E6BB7C100FCEF4E /* UIView+JellyJump.m in Sources */,
 				F4070FCD1E6BAC1D00FCEF4E /* AppDelegate.m in Sources */,
 				F4070FCA1E6BAC1D00FCEF4E /* main.m in Sources */,
 			);
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A4J2973DH;
 				INFOPLIST_FILE = JellyJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5A4J2973DH;
 				INFOPLIST_FILE = JellyJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
