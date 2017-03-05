@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4070FCA1E6BAC1D00FCEF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FC91E6BAC1D00FCEF4E /* main.m */; };
+		F4070FCD1E6BAC1D00FCEF4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FCC1E6BAC1D00FCEF4E /* AppDelegate.m */; };
+		F4070FD01E6BAC1D00FCEF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FCF1E6BAC1D00FCEF4E /* ViewController.m */; };
+		F4070FD31E6BAC1D00FCEF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4070FD11E6BAC1D00FCEF4E /* Main.storyboard */; };
+		F4070FD51E6BAC1D00FCEF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4070FD41E6BAC1D00FCEF4E /* Assets.xcassets */; };
+		F4070FD81E6BAC1D00FCEF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4070FD61E6BAC1D00FCEF4E /* LaunchScreen.storyboard */; };
+		F4070FE31E6BAC1D00FCEF4E /* JellyJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FE21E6BAC1D00FCEF4E /* JellyJumpTests.m */; };
+		F4070FEE1E6BAC1D00FCEF4E /* JellyJumpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4070FED1E6BAC1D00FCEF4E /* JellyJumpUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4070FDF1E6BAC1D00FCEF4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4070FBD1E6BAC1D00FCEF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4070FC41E6BAC1D00FCEF4E;
+			remoteInfo = JellyJump;
+		};
+		F4070FEA1E6BAC1D00FCEF4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4070FBD1E6BAC1D00FCEF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4070FC41E6BAC1D00FCEF4E;
+			remoteInfo = JellyJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4070FC51E6BAC1D00FCEF4E /* JellyJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4070FC91E6BAC1D00FCEF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4070FCB1E6BAC1D00FCEF4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4070FCC1E6BAC1D00FCEF4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4070FCE1E6BAC1D00FCEF4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4070FCF1E6BAC1D00FCEF4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4070FD21E6BAC1D00FCEF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4070FD41E6BAC1D00FCEF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4070FD71E6BAC1D00FCEF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4070FD91E6BAC1D00FCEF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4070FDE1E6BAC1D00FCEF4E /* JellyJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4070FE21E6BAC1D00FCEF4E /* JellyJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyJumpTests.m; sourceTree = "<group>"; };
+		F4070FE41E6BAC1D00FCEF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4070FE91E6BAC1D00FCEF4E /* JellyJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4070FED1E6BAC1D00FCEF4E /* JellyJumpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyJumpUITests.m; sourceTree = "<group>"; };
+		F4070FEF1E6BAC1D00FCEF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4070FC21E6BAC1D00FCEF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FDB1E6BAC1D00FCEF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FE61E6BAC1D00FCEF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4070FBC1E6BAC1D00FCEF4E = {
+			isa = PBXGroup;
+			children = (
+				F4070FC71E6BAC1D00FCEF4E /* JellyJump */,
+				F4070FE11E6BAC1D00FCEF4E /* JellyJumpTests */,
+				F4070FEC1E6BAC1D00FCEF4E /* JellyJumpUITests */,
+				F4070FC61E6BAC1D00FCEF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4070FC61E6BAC1D00FCEF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4070FC51E6BAC1D00FCEF4E /* JellyJump.app */,
+				F4070FDE1E6BAC1D00FCEF4E /* JellyJumpTests.xctest */,
+				F4070FE91E6BAC1D00FCEF4E /* JellyJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4070FC71E6BAC1D00FCEF4E /* JellyJump */ = {
+			isa = PBXGroup;
+			children = (
+				F4070FCB1E6BAC1D00FCEF4E /* AppDelegate.h */,
+				F4070FCC1E6BAC1D00FCEF4E /* AppDelegate.m */,
+				F4070FCE1E6BAC1D00FCEF4E /* ViewController.h */,
+				F4070FCF1E6BAC1D00FCEF4E /* ViewController.m */,
+				F4070FD11E6BAC1D00FCEF4E /* Main.storyboard */,
+				F4070FD41E6BAC1D00FCEF4E /* Assets.xcassets */,
+				F4070FD61E6BAC1D00FCEF4E /* LaunchScreen.storyboard */,
+				F4070FD91E6BAC1D00FCEF4E /* Info.plist */,
+				F4070FC81E6BAC1D00FCEF4E /* Supporting Files */,
+			);
+			path = JellyJump;
+			sourceTree = "<group>";
+		};
+		F4070FC81E6BAC1D00FCEF4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4070FC91E6BAC1D00FCEF4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4070FE11E6BAC1D00FCEF4E /* JellyJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4070FE21E6BAC1D00FCEF4E /* JellyJumpTests.m */,
+				F4070FE41E6BAC1D00FCEF4E /* Info.plist */,
+			);
+			path = JellyJumpTests;
+			sourceTree = "<group>";
+		};
+		F4070FEC1E6BAC1D00FCEF4E /* JellyJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4070FED1E6BAC1D00FCEF4E /* JellyJumpUITests.m */,
+				F4070FEF1E6BAC1D00FCEF4E /* Info.plist */,
+			);
+			path = JellyJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4070FC41E6BAC1D00FCEF4E /* JellyJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4070FF21E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJump" */;
+			buildPhases = (
+				F4070FC11E6BAC1D00FCEF4E /* Sources */,
+				F4070FC21E6BAC1D00FCEF4E /* Frameworks */,
+				F4070FC31E6BAC1D00FCEF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyJump;
+			productName = JellyJump;
+			productReference = F4070FC51E6BAC1D00FCEF4E /* JellyJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4070FDD1E6BAC1D00FCEF4E /* JellyJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4070FF51E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJumpTests" */;
+			buildPhases = (
+				F4070FDA1E6BAC1D00FCEF4E /* Sources */,
+				F4070FDB1E6BAC1D00FCEF4E /* Frameworks */,
+				F4070FDC1E6BAC1D00FCEF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4070FE01E6BAC1D00FCEF4E /* PBXTargetDependency */,
+			);
+			name = JellyJumpTests;
+			productName = JellyJumpTests;
+			productReference = F4070FDE1E6BAC1D00FCEF4E /* JellyJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4070FE81E6BAC1D00FCEF4E /* JellyJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4070FF81E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJumpUITests" */;
+			buildPhases = (
+				F4070FE51E6BAC1D00FCEF4E /* Sources */,
+				F4070FE61E6BAC1D00FCEF4E /* Frameworks */,
+				F4070FE71E6BAC1D00FCEF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4070FEB1E6BAC1D00FCEF4E /* PBXTargetDependency */,
+			);
+			name = JellyJumpUITests;
+			productName = JellyJumpUITests;
+			productReference = F4070FE91E6BAC1D00FCEF4E /* JellyJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4070FBD1E6BAC1D00FCEF4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DaiPei;
+				TargetAttributes = {
+					F4070FC41E6BAC1D00FCEF4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F4070FDD1E6BAC1D00FCEF4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4070FC41E6BAC1D00FCEF4E;
+					};
+					F4070FE81E6BAC1D00FCEF4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4070FC41E6BAC1D00FCEF4E;
+					};
+				};
+			};
+			buildConfigurationList = F4070FC01E6BAC1D00FCEF4E /* Build configuration list for PBXProject "JellyJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4070FBC1E6BAC1D00FCEF4E;
+			productRefGroup = F4070FC61E6BAC1D00FCEF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4070FC41E6BAC1D00FCEF4E /* JellyJump */,
+				F4070FDD1E6BAC1D00FCEF4E /* JellyJumpTests */,
+				F4070FE81E6BAC1D00FCEF4E /* JellyJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4070FC31E6BAC1D00FCEF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4070FD81E6BAC1D00FCEF4E /* LaunchScreen.storyboard in Resources */,
+				F4070FD51E6BAC1D00FCEF4E /* Assets.xcassets in Resources */,
+				F4070FD31E6BAC1D00FCEF4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FDC1E6BAC1D00FCEF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FE71E6BAC1D00FCEF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4070FC11E6BAC1D00FCEF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4070FD01E6BAC1D00FCEF4E /* ViewController.m in Sources */,
+				F4070FCD1E6BAC1D00FCEF4E /* AppDelegate.m in Sources */,
+				F4070FCA1E6BAC1D00FCEF4E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FDA1E6BAC1D00FCEF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4070FE31E6BAC1D00FCEF4E /* JellyJumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4070FE51E6BAC1D00FCEF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4070FEE1E6BAC1D00FCEF4E /* JellyJumpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4070FE01E6BAC1D00FCEF4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4070FC41E6BAC1D00FCEF4E /* JellyJump */;
+			targetProxy = F4070FDF1E6BAC1D00FCEF4E /* PBXContainerItemProxy */;
+		};
+		F4070FEB1E6BAC1D00FCEF4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4070FC41E6BAC1D00FCEF4E /* JellyJump */;
+			targetProxy = F4070FEA1E6BAC1D00FCEF4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4070FD11E6BAC1D00FCEF4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4070FD21E6BAC1D00FCEF4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4070FD61E6BAC1D00FCEF4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4070FD71E6BAC1D00FCEF4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4070FF01E6BAC1D00FCEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4070FF11E6BAC1D00FCEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4070FF31E6BAC1D00FCEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JellyJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4070FF41E6BAC1D00FCEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JellyJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4070FF61E6BAC1D00FCEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JellyJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyJump.app/JellyJump";
+			};
+			name = Debug;
+		};
+		F4070FF71E6BAC1D00FCEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JellyJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyJump.app/JellyJump";
+			};
+			name = Release;
+		};
+		F4070FF91E6BAC1D00FCEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JellyJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JellyJump;
+			};
+			name = Debug;
+		};
+		F4070FFA1E6BAC1D00FCEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JellyJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.JellyJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JellyJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4070FC01E6BAC1D00FCEF4E /* Build configuration list for PBXProject "JellyJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4070FF01E6BAC1D00FCEF4E /* Debug */,
+				F4070FF11E6BAC1D00FCEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4070FF21E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4070FF31E6BAC1D00FCEF4E /* Debug */,
+				F4070FF41E6BAC1D00FCEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4070FF51E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4070FF61E6BAC1D00FCEF4E /* Debug */,
+				F4070FF71E6BAC1D00FCEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4070FF81E6BAC1D00FCEF4E /* Build configuration list for PBXNativeTarget "JellyJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4070FF91E6BAC1D00FCEF4E /* Debug */,
+				F4070FFA1E6BAC1D00FCEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4070FBD1E6BAC1D00FCEF4E /* Project object */;
+}
