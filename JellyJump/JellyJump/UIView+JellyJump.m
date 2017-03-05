@@ -32,44 +32,48 @@
     CATransform3D move1 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value1 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale1, move1)];
     
-    sx = 0.9;
+    sx = 0.95;
     sy = 1;
-    ty = -30;
+    ty = -CGRectGetHeight(self.layer.bounds) * 0.25;
     CATransform3D scale2 = CATransform3DMakeScale(sx, sy, sz);
     CATransform3D move2 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value2 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale2, move2)];
     
-    sx = 1;
-    sy = 1;
-    ty = 0;
     CATransform3D scale3 = CATransform3DMakeScale(sx, sy, sz);
     CATransform3D move3 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value3 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale3, move3)];
     
-    sx = 1.05;
-    sy = 0.92;
-    ty = (1 - sy) * CGRectGetHeight(self.layer.bounds) / 2;
+    sx = 1;
+    sy = 1;
+    ty = 0;
     CATransform3D scale4 = CATransform3DMakeScale(sx, sy, sz);
     CATransform3D move4 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value4 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale4, move4)];
     
-    sx = 1;
-    sy = 1;
-    ty = 0;
+    sx = 1.1;
+    sy = 0.9;
+    ty = (1 - sy) * CGRectGetHeight(self.layer.bounds) / 2;
     CATransform3D scale5 = CATransform3DMakeScale(sx, sy, sz);
     CATransform3D move5 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value5 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale5, move5)];
     
+    sx = 1;
+    sy = 1;
+    ty = 0;
     CATransform3D scale6 = CATransform3DMakeScale(sx, sy, sz);
     CATransform3D move6 = CATransform3DMakeTranslation(tx, ty, tz);
     NSValue *value6 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale6, move6)];
     
+    CATransform3D scale7 = CATransform3DMakeScale(sx, sy, sz);
+    CATransform3D move7 = CATransform3DMakeTranslation(tx, ty, tz);
+    NSValue *value7 = [NSValue valueWithCATransform3D:CATransform3DConcat(scale7, move7)];
     
     
-    jellyJump.values = @[value0, value1, value2, value3, value4, value5, value6];
-    jellyJump.keyTimes = @[@(0), @(0.1), @(0.3), @(0.4), @(0.45), @(0.5), @(1)];
     
-    jellyJump.duration = 1.5;
+    jellyJump.values = @[value0, value1, value2, value3, value4, value5, value6, value7];
+    jellyJump.keyTimes = @[@(0), @(0.1), @(0.25), @(0.35), @(0.4), @(0.5), @(0.58), @(1)];
+    
+    jellyJump.duration = 1.8;
     jellyJump.fillMode = kCAFillModeBackwards;
     jellyJump.removedOnCompletion = NO;
     jellyJump.repeatCount = INFINITY;
